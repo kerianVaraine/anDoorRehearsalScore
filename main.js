@@ -2,7 +2,7 @@
 // viewBox="0 0 1000 190"
 
 //TODO: Create a Timer to display or performers using timeline totalProgress() function written at bottom
-//TODO: change speed using timeScale(), so pieceDuration never changes from the set time.
+//TODO: change speed using timeScale(), transport functions 5xrewind 1xrewind pause play1x play5x
 
 // Score reference
 let score = document.getElementById("fullScore");
@@ -83,8 +83,6 @@ let part = {
     }
 }
 
-
-
 //////////////////////////////////////
 // Create part and init all things  //
 //////////////////////////////////////
@@ -94,10 +92,28 @@ part.set(bassPerformer);
 const performerMenu = document.querySelector("#performerMenu");
 const performerLoad = document.querySelector("#performerLoad");
 performerLoad.onclick = function(){
-    part.set(eval(performerMenu.value)); // I know this using eval() is bad, but it will do for now.
+    partChosen = "";
+    switch (performerMenu.value) {
+        case "bassPerformer":
+            partChosen = bassPerformer;
+            break;
+        case "performer1":
+                partChosen = performer1;
+                break;
+        case "performer2":
+                partChosen = performer2;
+                break;
+        case "performer3":
+                partChosen = performer3;
+                break;
+        case "performer4":
+                partChosen = performer4;
+                break;
+        default:
+            break;
+    }
+    part.set(partChosen);
 };
-
-
 
 //////////////////////
 // rehearsal marks  //
@@ -105,6 +121,7 @@ performerLoad.onclick = function(){
 const rehearsalMarkMenu = document.querySelector("#rehearsalMarkMenu");
 const rehearsalMarkSeek = document.querySelector("#rehearsalMarkSeek");
 
+// Values found by nearest guess using minutes:seconds from notation software, then refined using totalTime() in browser
 rehearsalMarkSeek.onclick = function(){
     switch (rehearsalMarkMenu.value) {
         case "R0":
@@ -144,10 +161,3 @@ play.onclick = function() {
 pause.onclick = function() {
     tl.pause();
  }
-
-
-// Timeline ideas from manual
-//
-// Get or set the progress of the timeline using its progress() or totalProgress() methods (totalProgress() just includes any repeats). For example, to skip to the halfway point, set myTimeline.progress(0.5);.
-//
-// Tween the time(), totalTime(), progress(), or totalProgress() to fast-forward or rewind the timeline. You could even attach a slider to one of these to give the user the ability to drag forward or backward through the timeline.
