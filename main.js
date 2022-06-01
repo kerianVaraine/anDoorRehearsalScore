@@ -21,6 +21,12 @@ let tl = gsap.timeline({
 // Create Part ViewBox values   //
 //////////////////////////////////
 
+// All Parts
+let allParts = {
+    start: "0 240 5000 2400",
+    end: "288000 240 5000 2400"
+}
+
 // Bass Part
 let bassPerformer = {
     start: "0 250 1000 300",
@@ -91,12 +97,22 @@ part.set(bassPerformer);
 
 const performerMenu = document.querySelector("#performerMenu");
 const performerLoad = document.querySelector("#performerLoad");
+
+
 performerLoad.onclick = function(){
+    timeOnClick = tl.totalTime();
+    isActive = tl.isActive();
+    performerValue = performerMenu.value
     partChosen = "";
-    switch (performerMenu.value) {
+    switch (performerValue) {
+        case "allParts":
+            partChosen = allParts;
+            document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 7.6%; height: 90%;");
+            //Ugly way to resize playLine
+            break;
         case "bassPerformer":
             partChosen = bassPerformer;
-            break;
+                break;            
         case "performer1":
                 partChosen = performer1;
                 break;
@@ -112,7 +128,17 @@ performerLoad.onclick = function(){
         default:
             break;
     }
+console.log(performerValue);
+    if(performerValue != "allParts") {
+        //Ugly way to resize playLine
+        document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 60%;");
+
+        
+    }
     part.set(partChosen);
+    tl.totalTime(timeOnClick);
+    if(isActive) {tl.play()};
+    
 };
 
 //////////////////////
@@ -122,7 +148,8 @@ const rehearsalMarkMenu = document.querySelector("#rehearsalMarkMenu");
 const rehearsalMarkSeek = document.querySelector("#rehearsalMarkSeek");
 
 // Values found by nearest guess using minutes:seconds from notation software, then refined using totalTime() in browser
-rehearsalMarkSeek.onclick = function(){
+ test = function(){
+    console.log(rehearsalMarkMenu.value);
     switch (rehearsalMarkMenu.value) {
         case "R0":
             tl.totalTime(0);
@@ -146,18 +173,40 @@ rehearsalMarkSeek.onclick = function(){
             break;
     } 
 }
+rehearsalMarkSeek.onclick = function(){test()};
+
+
+
 
 //////////////////////
 // Playback Buttons //
 //////////////////////
 const play = document.querySelector("#play");
 const pause = document.querySelector("#pause");
-const resume = document.querySelector("#resume");
+const speedBackward = document.querySelector("#speedBackward");
+const speedForward = document.querySelector("#speedForward");
 
 play.onclick = function() {
+    tl.timeScale(1);
     tl.play();
 }
 
 pause.onclick = function() {
     tl.pause();
+ }
+
+
+ //If timeline is NOT active(ie:playing), start playing, then set timeScale()
+ speedBackward.onclick = function(){
+    if(!tl.isActive()){
+        tl.play();
+    } 
+    tl.timeScale(-5);
+ }
+ 
+ speedForward.onclick = function(){
+    if(!tl.isActive()){
+        tl.play();
+    } 
+    tl.timeScale(5);
  }
