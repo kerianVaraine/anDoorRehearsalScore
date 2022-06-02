@@ -1,0 +1,26 @@
+TODO:
+
+Must Haves:
+
+    [ ] UX: Progress bar for entire piece
+
+    [ ] Performance notes: 
+        load a specific svg with instructions on it, button clickable on main page. 
+            make as a modal style popup?
+
+    [ ] Synced across performers:
+        Central control for initiating all actions, ie: "conductor" view.
+        Ideally using soundWorks to learn more for future pieces.
+
+    [ ] Styling:
+        [X] normalize.css
+        [ ] Interaction Feedback, ie: change colours of buttons when playing, fast forwarding etc
+        [ ] make things more UX friendly, button labeling, 
+        [ ] Invert Colours
+
+
+
+
+
+Nice to haves:
+

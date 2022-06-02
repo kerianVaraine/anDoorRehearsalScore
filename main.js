@@ -20,38 +20,42 @@ let tl = gsap.timeline({
 //////////////////////////////////
 // Create Part ViewBox values   //
 //////////////////////////////////
+    // ViewBox magic numbers were found using inkscape.
+    // Create a rectangle the width and height you want to display (2nd pair of coords in viewBox)
+    // Align rectangle with stave in inkscape and use the numbers in the top coordinate bar while in the move tool.
+
 
 // All Parts
 let allParts = {
-    start: "0 240 5000 2400",
-    end: "288000 240 5000 2400"
+    start: "0 140 5000 2635",
+    end: "288000 140 5000 2635"
 }
 
 // Bass Part
 let bassPerformer = {
-    start: "0 250 1000 300",
-    end: "288000 250 1000 300"
+    start: "0 127.188 1000 550",
+    end: "288000 127.188 1000 550"
 }
 
 // Performer 1 Part
 let performer1 = {
-    start: "0 800 1000 300",
-    end: "288000 800 1000 300"
+    start: "0 654.813 1000 550",
+    end: "288000 654.813 1000 550"
 }
 // Performer 2 Part
 let performer2 = {
-    start: "0 1300 1000 300",
-    end: "288000 1300 1000 300"
+    start: "0 1182.438 1000 550",
+    end: "288000 1182.438 1000 550"
 }
 // Performer 3 Part
 let performer3 = {
-    start: "0 1850 1000 300",
-    end: "288000 1850 1000 300"
+    start: "0 1710.063 1000 550",
+    end: "288000 1710.063 1000 550"
 }
 // Performer 4 Part
 let performer4 = {
-    start: "0 2350 1000 300",
-    end: "288000 2350 1000 300"
+    start: "0 2237.688 1000 550",
+    end: "288000 2237.688 1000 550"
 }
 
 /////////////////////////////////////////////////////////////
@@ -132,8 +136,6 @@ console.log(performerValue);
     if(performerValue != "allParts") {
         //Ugly way to resize playLine
         document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 60%;");
-
-        
     }
     part.set(partChosen);
     tl.totalTime(timeOnClick);
