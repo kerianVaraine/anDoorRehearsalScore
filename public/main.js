@@ -2,14 +2,25 @@
 // viewBox="0 0 1000 190"
 
 //TODO: Create a Timer to display or performers using timeline totalProgress() function written at bottom
-//TODO: change speed using timeScale(), transport functions 5xrewind 1xrewind pause play1x play5x
 
+
+///////////////////////
+// Socket.io         //
+///////////////////////
+// open connection to server
+var webSocket = io();
 
 ///////////////////////
 // anDoor Specific
 ///////////////////////
 // Score reference
 let score = document.getElementById("fullScore");
+
+// Conductor checkbox
+let isConductor = false;
+let conductorSelect = document.getElementById("conductorSelect");
+conductorSelect.onclick = function () {isConductor = !isConductor;} //Flips value on click
+
 
 ///////////////////////
 // Timeline  Create  //
@@ -27,7 +38,11 @@ let tl = gsap.timeline({
 // ViewBox magic numbers were found using inkscape.
 // Create a rectangle the width and height you want to display (2nd pair of coords in viewBox)
 // Align rectangle with stave in inkscape and use the numbers in the top coordinate bar while in the move tool.
+// 
+// improve part creation by using less magic numbers,
+//      ie: individual parts share x1,x2,x3 of start and end
 
+let viewBoxDim = {x1:0, x2 : 1000, y2: 550}
 
 // All Parts
 let allParts = {
@@ -89,7 +104,7 @@ let part = {
                 ease: "none"
             }
         );
-        // Timelineclear and add newly created part
+        // Timeline clear and add newly created part
         tl.clear();
         tl.pause();
         tl.add(this.gsapTo);
@@ -100,14 +115,11 @@ let part = {
 //////////////////////////////////////
 // Create part and init all things  //
 //////////////////////////////////////
-// default to bass, TODO: make default to whole score?
-part.set(bassPerformer);
 
 const performerMenu = document.querySelector("#performerMenu");
 const performerLoad = document.querySelector("#performerLoad");
 
-
-performerLoad.onclick = function () {
+let loadPerformer = function() {
     timeOnClick = tl.totalTime();
     isActive = tl.isActive();
     performerValue = performerMenu.value
@@ -136,7 +148,7 @@ performerLoad.onclick = function () {
         default:
             break;
     }
-    console.log(performerValue);
+    //console.log(performerValue);
     if (performerValue != "allParts") {
         //Ugly way to resize playLine
         document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 60%;");
@@ -146,8 +158,12 @@ performerLoad.onclick = function () {
     if (isActive) {
         tl.play()
     };
-
 };
+
+performerLoad.onclick = function () {loadPerformer();}
+
+// init all parts
+loadPerformer()
 
 //////////////////////
 // rehearsal marks  //
@@ -156,9 +172,9 @@ const rehearsalMarkMenu = document.querySelector("#rehearsalMarkMenu");
 const rehearsalMarkSeek = document.querySelector("#rehearsalMarkSeek");
 
 // Values found by nearest guess using minutes:seconds from notation software, then refined using totalTime() in browser
-test = function () {
-    console.log(rehearsalMarkMenu.value);
-    switch (rehearsalMarkMenu.value) {
+seekToMark = function (mark) {
+//    console.log(rehearsalMarkMenu.value);
+    switch (mark) {
         case "R0":
             tl.totalTime(0);
             break;
@@ -181,8 +197,14 @@ test = function () {
             break;
     }
 }
+
 rehearsalMarkSeek.onclick = function () {
-    test()
+    mark = rehearsalMarkMenu.value;
+    if(isConductor){
+        webSocket.emit("conductorRehearsalMark", mark);
+    } else {
+        seekToMark(mark);
+    }
 };
 
 
@@ -199,6 +221,21 @@ pauseScore = function () {
     tl.pause();
 }
 
+fastBack = function () {
+    //If timeline is NOT active(ie:playing), start playing, then set timeScale()
+    if (!tl.isActive()) {
+        tl.play();
+    }
+    tl.timeScale(-5);
+}
+
+fastForward = function () {
+    if (!tl.isActive()) {
+        tl.play();
+    }
+    tl.timeScale(5);
+}
+
 //////////////////////
 // Playback Buttons //
 //////////////////////
@@ -207,51 +244,29 @@ const pause = document.querySelector("#pause");
 const speedBackward = document.querySelector("#speedBackward");
 const speedForward = document.querySelector("#speedForward");
 
-play.onclick = function(){playScore();}
-pause.onclick = function () {pauseScore();}
-
-
-//If timeline is NOT active(ie:playing), start playing, then set timeScale()
-speedBackward.onclick = function () {
-    if (!tl.isActive()) {
-        tl.play();
+play.onclick = function(){
+    if(isConductor) {
+        webSocket.emit("conductorSays", "play");
+    } else {
+    playScore();
     }
-    tl.timeScale(-5);
 }
 
-speedForward.onclick = function () {
-    if (!tl.isActive()) {
-        tl.play();
+pause.onclick = function () {
+    if(isConductor){
+        webSocket.emit("conductorSays", "pause");
+    } else {
+        pauseScore();
     }
-    tl.timeScale(5);
 }
 
+speedBackward.onclick = function () {fastBack();}
+speedForward.onclick = function () {fastForward();}
 
+//////////////////////////////////////
+// Server message receive and act   //
+//////////////////////////////////////
 
-
-///////////////////////
-// Conductor buttons //
-// &                 //
-// Socket.io         //
-///////////////////////
-// open connection to server TODO: make the ip same as server, using serverip var in server.js
-var webSocket = io('http://192.168.178.22:8888');
-
-
-// Conductor play controls
-const conductorPlayButton = document.querySelector("#conductorPlayButton");
-const conductorPauseButton = document.querySelector("#conductorPauseButton");
-
-
-conductorPlayButton.onclick = function() {
-    webSocket.emit("conductorSays", "play");
-}
-
-conductorPauseButton.onclick = function() {
-    webSocket.emit("conductorSays", "pause");
-}
-
-// Conductor message receive and act
 webSocket.on("serverSays", (arg) => {
     console.log("Server Says: " + arg);
     switch (arg) {
@@ -264,7 +279,9 @@ webSocket.on("serverSays", (arg) => {
         default:
             break;
     };
-
+})
+webSocket.on("serverRehearsalMark", (arg) => {
+    seekToMark(arg);
 })
 
 

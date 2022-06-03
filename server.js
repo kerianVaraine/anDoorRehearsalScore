@@ -3,7 +3,6 @@ const path = require('path');
 const os = require('os');
 let networkInterfaces = os.networkInterfaces();
 
-
 // Server reqs
 const express = require('express');
 const http = require('http');
@@ -35,7 +34,6 @@ server.listen(PORT, function() {
     console.log('listening ' + serverIp + ':' + PORT);
 })
 
-
 //////////////////
 // Socket.io    //
 //////////////////
@@ -48,11 +46,20 @@ io.on('connection', (socket) => {
         console.log('user disconnected');
     });
 
-    // anDoor Specific
+    /////////////////////////////////////////////
+    // anDoor Specific listeners and callbacks //
+    /////////////////////////////////////////////
+
     // messages from clients with "conductorSays" passes request to all clients including sender
    socket.on("conductorSays", (arg, callback) => {
         console.log("conductor says: " + arg);
         io.sockets.emit('serverSays', arg); // io.sockets to send to all connected clients
+    });
+
+    // Rehearsal Mark specific listener
+    socket.on("conductorRehearsalMark", (arg, callback) => {
+        console.log("conductor rehearsal mark: " + arg);
+        io.sockets.emit('serverRehearsalMark', arg); // io.sockets to send to all connected clients
     });
 });
 

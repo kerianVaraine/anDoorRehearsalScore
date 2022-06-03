@@ -15,7 +15,7 @@
       <button id="pause">Pause</button>
       <button id="speedBackward">5X backwards</button>
       <button id="speedForward">5X forwards</button>
-      <select id="performerMenu" name="Performer">
+      <select id="performerMenu" name="Performer" autocomplete="off">
          <option value="allParts" selected>All Parts</option>
          <option value="bassPerformer">Bass</option>
          <option value="performer1">Violin 1</option>
@@ -37,6 +37,7 @@
       </select>
       <button id="rehearsalMarkSeek">Goto Mark</button>
 
+      <input type="checkbox" name="conductor?" id="conductorSelect" autocomplete="off">conductor?</select>
    </div>
 
    <div id="scoreStage">
@@ -3444,17 +3445,8 @@
          </defs>
       </svg>
    </div>
-
-<!-- temp, replace with a conductor checkbox and have one client as the conductor -->
-   <div>
-      <button id= "conductorPlayButton">Conductor: Play</button>
-      <button id="conductorPauseButton">Conductor: pause</button:id>
-   </div>
-
-
+ 
 </body>
 <script src="/socket.io/socket.io.js"></script>
 <script src="main.js"></script>
-
-
 </html>
