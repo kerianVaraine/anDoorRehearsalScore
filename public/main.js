@@ -25,7 +25,7 @@ conductorSelect.onclick = function () {isConductor = !isConductor;} //Flips valu
 ///////////////////////
 // Timeline  Create  //
 ///////////////////////
-let pieceDuration = (14 * 60) + 40;
+let pieceDuration = (14 * 60) + 5;
 let pieceProgress = 0;
 let tl = gsap.timeline({
     paused: true, //start paused for loading and sync
@@ -127,11 +127,12 @@ let loadPerformer = function() {
     switch (performerValue) {
         case "allParts":
             partChosen = allParts;
-            document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 7.6%; height: 90%;");
-            //Ugly way to resize playLine
+            document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 7.6%; height: 90%;"); //Ugly way to resize playLine
+            document.querySelector("#ds").setAttribute("class", "hidden"); // toggle hidden for dynamics stave
             break;
         case "bassPerformer":
             partChosen = bassPerformer;
+            document.querySelector("#ds").setAttribute("class", "hidden"); // toggle hidden for dynamics stave
             break;
         case "performer1":
             partChosen = performer1;
@@ -151,7 +152,10 @@ let loadPerformer = function() {
     //console.log(performerValue);
     if (performerValue != "allParts") {
         //Ugly way to resize playLine
-        document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 60%;");
+        document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 100%;");
+        if(performerValue != "bassPerformer") {
+            document.querySelector("#ds").setAttribute("class", "");
+    } // toggle hidden for dynamics stave
     }
     part.set(partChosen);
     tl.totalTime(timeOnClick);
@@ -206,6 +210,94 @@ rehearsalMarkSeek.onclick = function () {
         seekToMark(mark);
     }
 };
+
+////////////////////
+// Dynamics stave //
+////////////////////
+/* path id = #ads
+d="M 0.2,10 7.0,0.2 12.0,4.15 H 30"
+d = "M ax,ay bx,by cx,cy H 30"
+*/
+let dynamics = {
+    dynamicsStave : document.querySelector("#ads"),
+    ax : 0.2,
+    ay : 10.0,
+    bx : 7.0,
+    by : 0.2,
+    cx : 12.0,
+    cy : 4.15,
+    dString : function() {
+        return "M " + this.ax + "," + this.ay + " " + this.bx + "," + this.by + " " + this.cx + "," + this.cy + " H 30";
+    },
+
+    updateDynamics: function (){
+        this.dynamicsStave.setAttribute("d", this.dString());
+    },
+
+    resetDefault: function(){
+        this.ax = 0.2,
+        this.ay = 10.0,
+        this.bx = 7.0,
+        this.by = 0.2,
+        this.cx = 12.0,
+        this.cy = 4.15,
+        this.updateDynamics();
+    },
+    // this needs to clamp to 0.1 and 9.9 i think
+    flipScale: function (n) {
+        m = (n * -1 + 10);
+        switch (m) {
+            case 0:
+                return 0.3;
+                break;
+            case 10:
+                return 9.6;
+                break;
+            default:
+                return m;
+                break;
+        }
+    }, //helper to have numbers for from 0-10 (soft/slow to loud/fast)
+
+    setAttackRate: function(rate) {
+        if(rate < this.getDecayRate()){
+        this.bx = rate;
+        } else {
+            this.bx = this.getDecayRate();
+        }
+        this.updateDynamics();
+    },
+    getAttackRate: function() {return this.bx},
+
+    setAttackAmp: function(amp) {this.by = this.flipScale(amp); this.updateDynamics();},
+    getAttackAmp: function() {return this.by},
+
+    setDecayRate: function(rate) {
+        if(rate > 0){
+        this.cx = rate + this.getAttackRate();
+    } else {
+        this.cx = this.getAttackRate();
+    }
+        this.updateDynamics();
+    },
+    getDecayRate: function() {return this.cx},
+
+    setDecayAmp: function(amp) {this.cy = this.flipScale(amp); this.updateDynamics();},
+    getDecayAmp: function() {return this.cy},
+
+    generateADS: function(attR, attA, decR, decA) {this.setAttackRate(attR); this.setAttackAmp(attA); this.setDecayRate(decR); this.setDecayAmp(decA)},
+}
+
+let dynamicsPresets = function (callName) {
+    switch (callName) {
+        case "sharp":
+            dynamics.generateADS(1,10,3,7);
+            break;
+        default:
+            break;
+    }
+}
+
 
 
 ////////////////////////

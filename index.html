@@ -8,6 +8,7 @@
    <title>AnDoor</title>
    <script src="./gsap.min.js"></script>
    <link rel="stylesheet" href="./normalize.css">
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
    <div>
@@ -41,9 +42,11 @@
    </div>
 
    <div id="scoreStage">
-      <svg id="playLine" style="z-index:100; position:absolute; width: 37.4%; height: 60%;">
+      <svg id="playLine" style="z-index:100; position:absolute; width: 37.4%; height: 100%;">
          <line id="playLine2" stroke="#32B" stroke-width="4" x1="50%" x2="50%" y1="0%" y2="100%"></line>
-      </svg>
+         </svg>
+
+
 
       <svg id="fullScore" width="90%" height="90%" viewBox="0 300 1000 300">
          <style>
@@ -3444,6 +3447,36 @@
                d="M56010.938 2497.544c-3.072 0-5.888 2.688-5.888 6.144 0 2.944 2.943 5.76 5.888 5.76 3.456 0 6.144-2.816 6.144-5.76 0-3.456-2.688-6.144-6.144-6.144z" />
          </defs>
       </svg>
+<div id="ds" class="hidden">
+      <svg id="dynamixStave"
+      width = "30%"
+      height = "80%"
+      viewBox="0 0 30 10"
+      style="z-index: 99;">
+
+       <g
+          id="dynamicStave"
+          style="stroke:#32B;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          transform="matrix(1.0701011,0,0,0.98442479,-13.546684,-8.1874637)">
+         <path
+            style="fill:none;stroke:#32B;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 12.828937,8.41899 H 40.758602"
+            id="path10" />
+         <path
+            style="fill:none;stroke:#32B;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 12.828937,18.174328 H 40.758602"
+            id="path14" />
+         <path
+            style="fill:none;stroke:#32B;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 12.828937,13.296659 H 40.758602"
+            id="path16" />
+       </g>
+       <path
+          style="fill:none;stroke:#000000;stroke-width:0.27156px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          d="M 0.2,10 7.0,0.2 12.0,4.15 H 30"
+          id="ads" />
+   </svg>
+</div>
    </div>
  
 </body>

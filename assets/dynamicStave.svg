@@ -1,0 +1,28 @@
+      <svg id="dynamixStave"
+      width = "30%"
+      height="100%"
+      viewBox="0 0 30 10"
+      style="z-index: 99;">
+
+       <g
+          id="dynamicStave"
+          style="stroke:#32B;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+          transform="matrix(1.0701011,0,0,0.98442479,-13.546684,-8.1874637)">
+         <path
+            style="fill:none;stroke:#32B;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 12.828937,8.41899 H 40.758602"
+            id="path10" />
+         <path
+            style="fill:none;stroke:#32B;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 12.828937,18.174328 H 40.758602"
+            id="path14" />
+         <path
+            style="fill:none;stroke:#32B;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+            d="M 12.828937,13.296659 H 40.758602"
+            id="path16" />
+       </g>
+       <path
+          style="fill:none;stroke:#000000;stroke-width:0.27156px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          d="M 0.18157642,9.7037952 7.1829057,0.19582726 12.188001,4.1424286 H 30.06334"
+          id="ads" />
+   </svg>

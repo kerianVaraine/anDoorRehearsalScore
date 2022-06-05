@@ -1,0 +1,9 @@
+#dynamixStave {
+    position:absolute;
+    top:40% ;
+    left: 18.5%;
+    opacity: 1;
+}
+.hidden{
+    visibility: hidden;
+}
