@@ -25,12 +25,131 @@ conductorSelect.onclick = function () {isConductor = !isConductor;} //Flips valu
 ///////////////////////
 // Timeline  Create  //
 ///////////////////////
-let pieceDuration = (14 * 60) + 5;
+let pieceDuration = (14 * 60) + 5; //14:30
 let pieceProgress = 0;
 let tl = gsap.timeline({
     paused: true, //start paused for loading and sync
-    // onUpdate: function(){ pieceProgress = this.totalProgress(); }
 });
+
+////////////////////
+// Dynamics stave //
+////////////////////
+/* svg path id = #ads
+ default set at: d="M 0.2,10 7.0,0.2 12.0,4.15 H 30"
+ params as : d = "M ax,ay attackRate,attackAmp decayRate,decayAmp H 30"
+*/
+let dynamics = {
+    dynamicsStave : document.querySelector("#ads"),
+    ax : 0.2,
+    ay : 10.0,
+    attackRate : 7.0,
+    attackAmp : 0.2,
+    decayRate : 12.0,
+    decayAmp : 4.15,
+    dString : function() {
+        return "M " + this.ax + "," + this.ay + " " + this.attackRate + "," + this.attackAmp + " " + this.decayRate + "," + this.decayAmp + " H 30";
+    },
+
+    updateDynamics: function (){
+        this.dynamicsStave.setAttribute("d", this.dString());
+    },
+
+    resetDefault: function(){
+        this.ax = 0.2,
+        this.ay = 10.0,
+        this.attackRate = 7.0,
+        this.attackAmp = 0.2,
+        this.decayRate = 12.0,
+        this.decayAmp = 4.15,
+        this.updateDynamics();
+    },
+
+    //helper to have numbers for from 0-10 (soft/slow to loud/fast), but 0==0.3 and 10==9.6 for svg overlap
+    flipScale: function (n) {
+        m = (n * -1 + 10);
+        switch (m) {
+            case 0:
+                return 0.3;
+                break;
+            case 10:
+                return 9.6;
+                break;
+            default:
+                return m;
+                break;
+        }
+    },
+    setAttackRate: function(rate) {
+        if(rate < this.getDecayRate()){
+        this.attackRate = rate;
+        } else {
+            this.attackRate = this.getDecayRate();
+        }
+        this.updateDynamics();
+    },
+    getAttackRate: function() {return this.attackRate},
+
+    setAttackAmp: function(amp) {this.attackAmp = this.flipScale(amp); this.updateDynamics();},
+    getAttackAmp: function() {return this.attackAmp},
+
+    setDecayRate: function(rate) {
+        if(rate > 0){
+        this.decayRate = rate + this.getAttackRate();
+    } else {
+        this.decayRate = this.getAttackRate();
+    }
+        this.updateDynamics();
+    },
+    getDecayRate: function() {return this.decayRate},
+
+    setDecayAmp: function(amp) {this.decayAmp = this.flipScale(amp); this.updateDynamics();},
+    getDecayAmp: function() {return this.decayAmp},
+
+    generateADS: function(attR, attA, decR, decA) {this.setAttackRate(attR); this.setAttackAmp(attA); this.setDecayRate(decR); this.setDecayAmp(decA)},
+
+}
+
+// Dynamics fluid animation
+// gsap.to(dynamics, {attackRate: 1, duration:1, onUpdate: function() {dynamics.updateDynamics()}})
+let animateSetADS = function (attR, attA, decR, decA, duration) {
+    //Logic needed again for making parameters sane...
+    //Just copyPAsta from dynamics functions
+    if(attR < dynamics.getDecayRate()){
+        attR = attR;
+        } else {
+            attR = dynamics.getDecayRate();
+    };
+
+    attA = dynamics.flipScale(attA);
+
+    if(decR > 0){
+        decR = decR + dynamics.getAttackRate();
+    } else {
+        decR = dynamics.getAttackRate();
+    }
+
+    decA = dynamics.flipScale(decA);
+
+    gsap.to(dynamics, {attackRate: attR, attackAmp: attA, decayRate: decR, decayAmp: decA, duration: duration, onUpdate: function() {dynamics.updateDynamics()}});
+    console.log("animADS hit");
+}
+
+// Predefined dynamic staves for parts.
+let dynamicPreset = {
+    a1: () => animateSetADS(3,10,6,7,8),
+    a2: () => animateSetADS(1,10,2,3,1),
+    a3: () => animateSetADS(1,10,2,9.5,1)
+}
+
+// Dynamic changes on timeline
+// Called when parts are created, but should be independent for parts
+// take an array of dynamics and onset times, defined in each part.
+let setDynamicsTime = function(timeline) {
+    timeline.call(dynamicPreset.a1, null, 2)
+    .call(dynamicPreset.a2, null, 12);
+}
+
+
 
 //////////////////////////////////
 // Create Part ViewBox values   //
@@ -49,6 +168,7 @@ let allParts = {
     start: "0 140 5000 2635",
     end: "288000 140 5000 2635"
 }
+// part specific dynamics should entered here::
 
 // Bass Part
 let bassPerformer = {
@@ -85,6 +205,7 @@ let part = {
         start: "",
         end: ""
     },
+    dynamics: null,
     gsapTo: null,
 
     initView: function () {
@@ -108,6 +229,7 @@ let part = {
         tl.clear();
         tl.pause();
         tl.add(this.gsapTo);
+        setDynamicsTime(tl); // part specific dynamics called here
         this.initView();
     }
 }
@@ -183,19 +305,19 @@ seekToMark = function (mark) {
             tl.totalTime(0);
             break;
         case "R1":
-            tl.totalTime(94);
+            tl.totalTime(90.709);
             break;
         case "R2":
-            tl.totalTime(224);
+            tl.totalTime(215.176);
             break;
         case "R3":
-            tl.totalTime(408);
+            tl.totalTime(392);
             break;
         case "R4":
-            tl.totalTime(557);
+            tl.totalTime(534.525);
             break;
         case "R5":
-            tl.totalTime(718.5);
+            tl.totalTime(690.268);
             break;
         default:
             break;
@@ -211,117 +333,7 @@ rehearsalMarkSeek.onclick = function () {
     }
 };
 
-////////////////////
-// Dynamics stave //
-////////////////////
-/* path id = #ads
-d="M 0.2,10 7.0,0.2 12.0,4.15 H 30"
-d = "M ax,ay attackRate,attackAmp decayRate,decayAmp H 30"
-*/
-let dynamics = {
-    dynamicsStave : document.querySelector("#ads"),
-    ax : 0.2,
-    ay : 10.0,
-    attackRate : 7.0,
-    attackAmp : 0.2,
-    decayRate : 12.0,
-    decayAmp : 4.15,
-    dString : function() {
-        return "M " + this.ax + "," + this.ay + " " + this.attackRate + "," + this.attackAmp + " " + this.decayRate + "," + this.decayAmp + " H 30";
-    },
 
-    updateDynamics: function (){
-        this.dynamicsStave.setAttribute("d", this.dString());
-    },
-
-    resetDefault: function(){
-        this.ax = 0.2,
-        this.ay = 10.0,
-        this.attackRate = 7.0,
-        this.attackAmp = 0.2,
-        this.decayRate = 12.0,
-        this.decayAmp = 4.15,
-        this.updateDynamics();
-    },
-    // this needs to clamp to 0.1 and 9.9 i think
-    flipScale: function (n) {
-        m = (n * -1 + 10);
-        switch (m) {
-            case 0:
-                return 0.3;
-                break;
-            case 10:
-                return 9.6;
-                break;
-            default:
-                return m;
-                break;
-        }
-    }, //helper to have numbers for from 0-10 (soft/slow to loud/fast)
-
-    setAttackRate: function(rate) {
-        if(rate < this.getDecayRate()){
-        this.attackRate = rate;
-        } else {
-            this.attackRate = this.getDecayRate();
-        }
-        this.updateDynamics();
-    },
-    getAttackRate: function() {return this.attackRate},
-
-    setAttackAmp: function(amp) {this.attackAmp = this.flipScale(amp); this.updateDynamics();},
-    getAttackAmp: function() {return this.attackAmp},
-
-    setDecayRate: function(rate) {
-        if(rate > 0){
-        this.decayRate = rate + this.getAttackRate();
-    } else {
-        this.decayRate = this.getAttackRate();
-    }
-        this.updateDynamics();
-    },
-    getDecayRate: function() {return this.decayRate},
-
-    setDecayAmp: function(amp) {this.decayAmp = this.flipScale(amp); this.updateDynamics();},
-    getDecayAmp: function() {return this.decayAmp},
-
-    generateADS: function(attR, attA, decR, decA) {this.setAttackRate(attR); this.setAttackAmp(attA); this.setDecayRate(decR); this.setDecayAmp(decA)},
-
-}
-
-let dynamicsPresets = function (callName) {
-    switch (callName) {
-        case "sharp":
-            dynamics.generateADS(1,10,3,7);
-            break;
-        default:
-            break;
-    }
-}
-
-// For animation of dynamics, will need to rejig how setting ads works, but this is workable...
-// gsap.to(dynamics, {attackRate: 1, duration:1, onUpdate: function() {dynamics.updateDynamics()}})
-let animateSetADS = function (attR, attA, decR, decA, duration) {
-    //Logic needed again for making parameters sane...
-    //Just copyPAsta from dynamics functions
-    if(attR < dynamics.getDecayRate()){
-        attR = attR;
-        } else {
-            attR = dynamics.getDecayRate();
-    };
-
-    attA = dynamics.flipScale(attA);
-
-    if(decR > 0){
-        decR = decR + dynamics.getAttackRate();
-    } else {
-        decR = dynamics.getAttackRate();
-    }
-
-    decA = dynamics.flipScale(decA);
-
-    gsap.to(dynamics, {attackRate: attR, attackAmp: attA, decayRate: decR, decayAmp: decA, duration: duration, onUpdate: function() {dynamics.updateDynamics()}})
-}
 
 ////////////////////////
 // Playback Functions //
