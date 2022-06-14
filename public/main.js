@@ -1,9 +1,6 @@
 //  viewBox="0 0 288000 2879" original
 // viewBox="0 0 1000 190"
 
-//TODO: Create a Timer to display or performers using timeline totalProgress() function written at bottom
-
-
 ///////////////////////
 // Socket.io         //
 ///////////////////////
@@ -14,21 +11,52 @@ var webSocket = io();
 // anDoor Specific
 ///////////////////////
 // Score reference
+// TODO: make into object
 let score = document.getElementById("fullScore");
+let getScoreViewBox = function() { return score.attributes.viewBox.value.split(" ")};
+// continually observe viewbox x1 via GSAP timeline update callback function
+viewBoxX1 = 0;
+let getViewBoxX1 = function() {
+    return parseInt(getScoreViewBox()[0]);
+}
+let setViewBoxX1 = function(int) {
+    viewBoxX1 = int;
+}
+
+
+// Helpers
+let inRange = function (low, high, x){
+    return (low <= x && x <= high);
+} 
+
 
 // Conductor checkbox
 let isConductor = false;
 let conductorSelect = document.getElementById("conductorSelect");
 conductorSelect.onclick = function () {isConductor = !isConductor;} //Flips value on click
 
-
 ///////////////////////
 // Timeline  Create  //
 ///////////////////////
 let pieceDuration = (14 * 60) + 5; //14:30
-let pieceProgress = 0;
+
+let updateRate = 60; // rate to update viewbox X1 position in timeline.onUpdate function
+let updateTrack = 0; // modulo track time for timeline.onUpdate function
+
 let tl = gsap.timeline({
     paused: true, //start paused for loading and sync
+    onUpdate: () => {
+        updateTrack++;
+        document.querySelector("#viewboxXpos").textContent = "viewbox X: "+ getViewBoxX1().toString(); // TEMP FOR DYNAMICS ENTRY
+        
+        if(updateTrack%updateRate == 0) {
+            viewBoxX1 = getViewBoxX1();
+            if(performerValue !== ("allParts" || "bassPerformer")){
+                // dynamicsUpdate();
+                updateDynamics();
+            }
+        }
+    }
 });
 
 ////////////////////
@@ -111,9 +139,9 @@ let dynamics = {
 
 // Dynamics fluid animation
 // gsap.to(dynamics, {attackRate: 1, duration:1, onUpdate: function() {dynamics.updateDynamics()}})
+// TODO: clean this copyPasta up
 let animateSetADS = function (attR, attA, decR, decA, duration) {
-    //Logic needed again for making parameters sane...
-    //Just copyPAsta from dynamics functions
+    //Logic needed again for making parameter input sane...
     if(attR < dynamics.getDecayRate()){
         attR = attR;
         } else {
@@ -131,24 +159,39 @@ let animateSetADS = function (attR, attA, decR, decA, duration) {
     decA = dynamics.flipScale(decA);
 
     gsap.to(dynamics, {attackRate: attR, attackAmp: attA, decayRate: decR, decayAmp: decA, duration: duration, onUpdate: function() {dynamics.updateDynamics()}});
-    console.log("animADS hit");
 }
 
 // Predefined dynamic staves for parts.
 let dynamicPreset = {
-    a1: () => animateSetADS(3,10,6,7,8),
-    a2: () => animateSetADS(1,10,2,3,1),
-    a3: () => animateSetADS(1,10,2,9.5,1)
+    currentDynamic: "",
+    partDynamicsArrayPosition: 0,
+    "a1": () => animateSetADS(3,10,6,7,1),
+    "a2": () => animateSetADS(1,10,2,3,1),
+    "a3": () => animateSetADS(1,10,2,9.5,1),
+    "short attack, short decay, F sustain": () => animateSetADS(1,10,1,8,1),
+    "short attack, long decay, F sustain": () => animateSetADS(1,10,3,8,1),
+    "mid attack, mid decay, F sustain": () => animateSetADS(3,10,3,8,1),
 }
 
-// Dynamic changes on timeline
-// Called when parts are created, but should be independent for parts
-// take an array of dynamics and onset times, defined in each part.
-let setDynamicsTime = function(timeline) {
-    timeline.call(dynamicPreset.a1, null, 2)
-    .call(dynamicPreset.a2, null, 12);
-}
+// Reset dynamic array to current viewboxX1
+let updateDynamics = function() {
+    let x1 = getViewBoxX1()
+    if(partChosen.partDynamics){
+    for (let i=0; i<partChosen.partDynamics.length -1; i++){
+        if(inRange(partChosen.partDynamics[i][0],partChosen.partDynamics[i+1][0], x1)) {
+            // console.log(x1 + " falls in range of index " + i);
+            partChosen.partDynamicsArrayPosition = i;
 
+            if(dynamicPreset.currentDynamic != partChosen.partDynamics[i][1]){
+            dynamicPreset[partChosen.partDynamics[i][1]]();
+            
+            dynamicPreset.currentDynamic = partChosen.partDynamics[i][1];
+            }
+
+        }
+ }
+}
+}
 
 
 //////////////////////////////////
@@ -179,22 +222,50 @@ let bassPerformer = {
 // Performer 1 Part
 let performer1 = {
     start: "0 654.813 1000 550",
-    end: "288000 654.813 1000 550"
+    end: "288000 654.813 1000 550",
+    partDynamics: [
+        // [ xPosition at end of dynamic section, dynamic preset to call ], must include end of piece entry
+        [0, "mid attack, mid decay, F sustain"],
+        [13800, "short attack, short decay, F sustain"],
+        [20800, "short attack, long decay, F sustain"],
+
+        [288000, "end of piece"]
+    ]
 }
 // Performer 2 Part
 let performer2 = {
     start: "0 1182.438 1000 550",
-    end: "288000 1182.438 1000 550"
+    end: "288000 1182.438 1000 550",
+    partDynamics: [
+        [0, "mid attack, mid decay, F sustain"],
+        [13600, "short attack, short decay, F sustain"],
+        [16960, "short attack, long decay, F sustain"],
+        [27920, "short attack, short decay, F sustain"],
+
+        [288000, "end of piece"]
+    ]
 }
 // Performer 3 Part
 let performer3 = {
     start: "0 1710.063 1000 550",
-    end: "288000 1710.063 1000 550"
+    end: "288000 1710.063 1000 550",
+    partDynamics: [
+        [0, "mid attack, mid decay, F sustain"],
+        [8700, "short attack, short decay, F sustain"],
+        [23200, "short attack, long decay, F sustain"],
+
+        [288000, "end of piece"]
+    ]
 }
 // Performer 4 Part
 let performer4 = {
     start: "0 2237.688 1000 550",
-    end: "288000 2237.688 1000 550"
+    end: "288000 2237.688 1000 550",
+    partDynamics: [
+        [0, "mid attack, mid decay, F sustain"],
+
+        [288000, "end of piece"]
+    ]
 }
 
 /////////////////////////////////////////////////////////////
@@ -229,7 +300,6 @@ let part = {
         tl.clear();
         tl.pause();
         tl.add(this.gsapTo);
-        setDynamicsTime(tl); // part specific dynamics called here
         this.initView();
     }
 }
@@ -281,6 +351,7 @@ let loadPerformer = function() {
     }
     part.set(partChosen);
     tl.totalTime(timeOnClick);
+    updateDynamics();
     if (isActive) {
         tl.play()
     };
@@ -294,6 +365,7 @@ loadPerformer()
 //////////////////////
 // rehearsal marks  //
 //////////////////////
+// TODO: convert time to SVG coordinates
 const rehearsalMarkMenu = document.querySelector("#rehearsalMarkMenu");
 const rehearsalMarkSeek = document.querySelector("#rehearsalMarkSeek");
 
@@ -322,6 +394,7 @@ seekToMark = function (mark) {
         default:
             break;
     }
+    updateDynamics();
 }
 
 rehearsalMarkSeek.onclick = function () {
@@ -340,6 +413,7 @@ rehearsalMarkSeek.onclick = function () {
 ////////////////////////
 
 playScore = function () {
+    updateDynamics();
     tl.timeScale(1);
     tl.play();
 }
