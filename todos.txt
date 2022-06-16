@@ -23,7 +23,7 @@ Must Haves:
 
 
 Score Finishing:
-    [ ] Dynamics: ADS svg icons that hover while scrolling, 
+    [x] Dynamics: ADS svg icons that hover while scrolling, 
             indicating how the attack of note heads happens.
         Attack Decay Sustain x axis, y axis = loudness ie:pp->ff
         Release is shown through dynamics in score. used sparingly. 
