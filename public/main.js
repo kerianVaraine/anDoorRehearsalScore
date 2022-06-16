@@ -59,6 +59,9 @@ let tl = gsap.timeline({
                 // dynamicsUpdate();
                 updateDynamics();
             }
+            if (performerValue == "allParts") {
+                getAllDynamics(viewBoxX1);
+            }
         }
     }
 });
@@ -453,6 +456,45 @@ let part = {
     }
 }
 
+///////////////////
+// Dynamic Check
+
+/////
+// Collect all Part dynamics into an array
+let allPartDynamics = [performer1.partDynamics, performer2.partDynamics, performer3.partDynamics, performer4.partDynamics];
+// collect all Parts floating text boxes for dynamic displays
+let allPartDynamicDisplays = document.querySelector("#floatingTextDynamics").children;
+
+// Returns all part dynamics at current ViewBoxX1 position, and displays in html elements
+let getAllDynamics = function (x1) {
+    if(typeof x1 === "undefined"){x1 = getViewBoxX1();}
+    // console.log("-------------------------------------------");
+    // console.log("At ViewboxX1 = " + x1 + " the dynamics are:");
+
+    for (let j = 0; j < allPartDynamics.length; j++) {
+        for (let i = 0; i < allPartDynamics[j].length - 1; i++) {
+            if (inRange(allPartDynamics[j][i][0], allPartDynamics[j][i + 1][0], x1)) {
+                // console.log("Part " + (j+1) + " dynamic is: " + allPartDynamics[j][i][1]);
+                allPartDynamicDisplays[j].innerText = allPartDynamics[j][i][1];
+            }
+        }
+    }
+}
+
+// TODO: show all dynamics for whole score view...
+// Going to need some serious refactoring of individual part dynamics
+// create new dynamics object and treat it as such, make the animate function object specific
+// STOP MIXING OOP with whatever it is you're doing!
+
+
+/// Dom Button
+
+let logAllDynamicsButton = document.querySelector("#getAllParts");
+logAllDynamicsButton.onclick = function () { getAllDynamics()}
+
+
+
+
 //////////////////////////////////////
 // Create part and init all things  //
 //////////////////////////////////////
@@ -470,6 +512,7 @@ let loadPerformer = function () {
             partChosen = allParts;
             document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 7.6%; height: 90%;"); //Ugly way to resize playLine
             document.querySelector("#ds").setAttribute("class", "hidden"); // toggle hidden for dynamics stave
+            document.querySelector("#floatingTextDynamics").setAttribute("class", ""); // toggle hidden for all dynamics text displays
             break;
         case "bassPerformer":
             partChosen = bassPerformer;
@@ -494,6 +537,7 @@ let loadPerformer = function () {
     if (performerValue != "allParts") {
         //Ugly way to resize playLine
         document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 100%;");
+        document.querySelector("#floatingTextDynamics").setAttribute("class", "hidden"); // toggle hidden for all dynamics text displays
         if (performerValue != "bassPerformer") {
             document.querySelector("#ds").setAttribute("class", "");
         } // toggle hidden for dynamics stave
@@ -501,6 +545,7 @@ let loadPerformer = function () {
     part.set(partChosen);
     tl.totalTime(timeOnClick);
     updateDynamics();
+    getAllDynamics();
     if (isActive) {
         tl.play()
     };
@@ -512,6 +557,10 @@ performerLoad.onclick = function () {
 
 // init all parts
 loadPerformer()
+
+
+
+
 
 //////////////////////
 // rehearsal marks  //
@@ -546,6 +595,7 @@ seekToMark = function (mark) {
             break;
     }
     updateDynamics();
+    getAllDynamics();
 }
 
 rehearsalMarkSeek.onclick = function () {
@@ -565,6 +615,7 @@ rehearsalMarkSeek.onclick = function () {
 
 playScore = function () {
     updateDynamics();
+    getAllDynamics();
     tl.timeScale(1);
     tl.play();
 }
@@ -640,36 +691,3 @@ webSocket.on("serverRehearsalMark", (arg) => {
     seekToMark(arg);
 })
 
-
-///////////////////
-// Dynamic Check
-
-/////
-// Collect all Part dynamics into an array
-let allPartDynamics = [performer1.partDynamics, performer2.partDynamics, performer3.partDynamics, performer4.partDynamics];
-// Returns all part dynamics at current ViewBoxX1 position
-let getAllDynamics = function () {
-    let x1 = getViewBoxX1();
-
-    console.log("-------------------------------------------");
-    console.log("At ViewboxX1 = " + x1 + " the dynamics are:");
-
-    for (let j = 0; j < allPartDynamics.length; j++) {
-        for (let i = 0; i < allPartDynamics[j].length - 1; i++) {
-            if (inRange(allPartDynamics[j][i][0], allPartDynamics[j][i + 1][0], x1)) {
-                console.log("Part " + (j+1) + " dynamic is: " + allPartDynamics[j][i][1]);
-            }
-        }
-    }
-}
-
-// TODO: show all dynamics for whole score view...
-// Going to need some serious refactoring of individual part dynamics
-// create new dynamics object and treat it as such, make the animate function object specific
-// STOP MIXING OOP with whatever it is you're doing!
-
-
-/// Dom Button
-
-let logAllDynamicsButton = document.querySelector("#getAllParts");
-logAllDynamicsButton.onclick = function () { getAllDynamics()}

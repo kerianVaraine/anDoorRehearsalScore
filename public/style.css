@@ -1,29 +1,45 @@
+#scoreStage {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+
+
 #dynamixStave {
     position:absolute;
     top:40% ;
     left: 18.5%;
     opacity: 1;
 }
+
 .hidden{
     visibility: hidden;
 }
-/* 
-.floatingAllScore {
 
+/* For All Parts Dynamics */
+#scoreStage>p {
     position: absolute;
-
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 #part1Float{
-position: absolute;
-    top:40%;
+    position:absolute;
+transform: translateX(4vw) translateY(15.5vw);
     }
 #part2Float{
     position: absolute;
+    transform: translateX(4vw) translateY(25vw);
 }
 #part3Float{
     position: absolute;
+    transform: translateX(4vw) translateY(34.5vw);
 }
 #part4Float{
     position: absolute;
-} */
+    transform: translateX(4vw) translateY(44vw);
+} 
