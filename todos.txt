@@ -1,26 +1,43 @@
 TODO:
 
+[ ] try deploy on heroku for always available...
+    https://devcenter.heroku.com/articles/node-websockets -- very basic deploy guide for websocket app./
+
+
+[x] collapse update dynamics functions into one call, with checks in that function...
+
+[x] what buttons need to be there and which do not? 
+
+[barely] style the page elements, playback buttons need to be nicer... << > || >> --- 
+
+[ ] Performance notes: 
+    load a specific svg with instructions on it, button clickable on main page. 
+        make as a modal style popup?
+
+[ ] make more efficient, HA!
+
 Must Haves:
 
-    [ ] UX: Progress bar for entire piece
+    [ ] UX: Progress bar for entire piece... maybe?
 
-    [ ] Performance notes: 
-        load a specific svg with instructions on it, button clickable on main page. 
-            make as a modal style popup?
 
-    [ ] Synced across performers:
+    [x] Synced across performers:
         Central control for initiating all actions, ie: "conductor" view.
-        Ideally using soundWorks to learn more for future pieces.
+    
+    [x] Conductor Logic:
+            set rehearsal mark, play, pause.
+ 
 
     [ ] Styling:
-        [X] normalize.css
+        [x] normalize.css
         [ ] Interaction Feedback, ie: change colours of buttons when playing, fast forwarding etc
         [ ] make things more UX friendly, button labeling, 
-        [ ] Invert Colours
+        [ ] Invert Colours?
 
 
-
-
-
-Nice to haves:
-
+Score Finishing:
+    [x] Dynamics: ADS svg icons that hover while scrolling, 
+            indicating how the attack of note heads happens.
+        Attack Decay Sustain x axis, y axis = loudness ie:pp->ff
+        Release is shown through dynamics in score. used sparingly. 
+            If no dynamics then abrupt end to note
