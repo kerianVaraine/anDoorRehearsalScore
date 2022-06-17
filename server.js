@@ -10,12 +10,15 @@ const compression = require('compression');
 const express = require('express');
 const http = require('http');
 const serverIp = os.networkInterfaces()['en0'][1]['address'];
-const PORT = process.env.PORT || 3000;
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
+}
 
 const app = express();
 const server = http.createServer(app);
 const { Server, Socket } = require('socket.io');
-const io = new Server(server, {cors: {origin: serverIp + ':' + PORT}}); // mime type work around
+const io = new Server(server, {cors: {origin: serverIp + ':' + port}}); // mime type work around
 
 
 
@@ -35,9 +38,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 })
 
-server.listen(PORT, function() {
-    console.log('listening http://localhost:' + PORT);
-    console.log('listening ' + serverIp + ':' + PORT);
+server.listen(port, function() {
+    // console.log('listening http://localhost:' + port);
+    console.log('listening ' + serverIp + ':' + port);
 })
 
 //////////////////
