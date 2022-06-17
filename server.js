@@ -3,6 +3,9 @@ const path = require('path');
 const os = require('os');
 let networkInterfaces = os.networkInterfaces();
 
+// hosting specifics
+const compression = require('compression');
+
 // Server reqs
 const express = require('express');
 const http = require('http');
@@ -19,6 +22,9 @@ const io = new Server(server, {cors: {origin: serverIp + ':' + PORT}}); // mime 
 /////////////////////////
 // Express Server Code //
 /////////////////////////
+
+//Compress all routes
+app.use(compression());
 
 // Use things in public folder
 app.use(express.static('public'))
