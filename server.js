@@ -2,27 +2,32 @@
 const path = require('path');
 
 // Server reqs
-const express = require('express')();
-const socketIO = require('socket.io');
+const express = require('express');
+const { createServer } = require('http');
+const { Server } = require('socket.io');
+
+const app = express();
+const httpServer = createServer(app);
+const io = new Server(httpServer,{});
+
 
 let PORT = process.env.PORT;
 if (PORT == null || PORT == "") {
     PORT = 3000;
 };
 
-const server = require("http").createServer(express);
-const io = socketIO(server);
+
 
 // Use things in public folder
-server.use(express.static('public'));
+app.use(express.static('public'));
 
 // serve HTML
-server.get('/', (req, res) => {
+app.get('/', (req, res) => {
  // Serve HTML
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-server.listen(PORT, function() {
+httpServer.listen(PORT, function() {
     console.log('listening on ' + PORT);
 });
 
