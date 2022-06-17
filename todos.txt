@@ -1,26 +1,24 @@
 TODO:
+
 [ ] try deploy on heroku for always available...
     https://devcenter.heroku.com/articles/node-websockets -- very basic deploy guide for websocket app./
 
 
-[ ] collapse update dynamics functions into one call, with checks in that function...
+[x] collapse update dynamics functions into one call, with checks in that function...
 
-[ ] what buttons need to be there and which do not? 
+[x] what buttons need to be there and which do not? 
 
-[ ] style the page elements
-[ ] progress bar
+[barely] style the page elements, playback buttons need to be nicer... << > || >> --- 
 
 [ ] Performance notes: 
     load a specific svg with instructions on it, button clickable on main page. 
         make as a modal style popup?
 
-
-
 [ ] make more efficient, HA!
 
 Must Haves:
 
-    [ ] UX: Progress bar for entire piece
+    [ ] UX: Progress bar for entire piece... maybe?
 
 
     [x] Synced across performers:
@@ -34,7 +32,7 @@ Must Haves:
         [x] normalize.css
         [ ] Interaction Feedback, ie: change colours of buttons when playing, fast forwarding etc
         [ ] make things more UX friendly, button labeling, 
-        [ ] Invert Colours
+        [ ] Invert Colours?
 
 
 Score Finishing:
@@ -43,7 +41,3 @@ Score Finishing:
         Attack Decay Sustain x axis, y axis = loudness ie:pp->ff
         Release is shown through dynamics in score. used sparingly. 
             If no dynamics then abrupt end to note
-
-
-Nice to haves:
-
