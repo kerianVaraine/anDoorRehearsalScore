@@ -1,12 +1,27 @@
 TODO:
+[ ] try deploy on heroku for always available...
+    https://devcenter.heroku.com/articles/node-websockets -- very basic deploy guide for websocket app./
+
+
+[ ] collapse update dynamics functions into one call, with checks in that function...
+
+[ ] what buttons need to be there and which do not? 
+
+[ ] style the page elements
+[ ] progress bar
+
+[ ] Performance notes: 
+    load a specific svg with instructions on it, button clickable on main page. 
+        make as a modal style popup?
+
+
+
+[ ] make more efficient, HA!
 
 Must Haves:
 
     [ ] UX: Progress bar for entire piece
 
-    [ ] Performance notes: 
-        load a specific svg with instructions on it, button clickable on main page. 
-            make as a modal style popup?
 
     [x] Synced across performers:
         Central control for initiating all actions, ie: "conductor" view.
@@ -28,14 +43,6 @@ Score Finishing:
         Attack Decay Sustain x axis, y axis = loudness ie:pp->ff
         Release is shown through dynamics in score. used sparingly. 
             If no dynamics then abrupt end to note
-
-
-    UNSURE IF NEED THIS... GIVES OTHER PERFORMERS A BREAK>>>
-    [ ] Shimmering chord for time starting ~9:49ish
-            overlay svg of possible notes, dynamics pulsing
-            aleatoric section. dynamics take precedent in score display
-
-
 
 
 Nice to haves:
