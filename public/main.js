@@ -1,43 +1,36 @@
-//  viewBox="0 0 288000 2879" original
-// viewBox="0 0 1000 190"
-
 ///////////////////////
 // Socket.io         //
 ///////////////////////
 // open connection to server
 var webSocket = io();
 
-///////////////////////
-// anDoor Specific
-///////////////////////
+/////////////////////
+// anDoor Specific //
+/////////////////////
+//
 // Score reference
-// TODO: make into a score object
 let score = document.getElementById("fullScore");
 let getScoreViewBox = function () {
     return score.attributes.viewBox.value.split(" ")
 };
-// continually observe viewbox x1 via GSAP timeline update callback function
+
+// x axis value of svg viewbox.
 viewBoxX1 = 0;
 let getViewBoxX1 = function () {
     return parseInt(getScoreViewBox()[0]);
 }
-let setViewBoxX1 = function (int) {
-    viewBoxX1 = int;
-}
-
 
 // Helpers
 let inRange = function (low, high, x) {
     return (low <= x && x <= high);
 }
 
-
 // Conductor checkbox
 let isConductor = false;
 let conductorSelect = document.getElementById("conductorSelect");
 conductorSelect.onclick = function () {
-    isConductor = !isConductor;
-} //Flips value on click
+    isConductor = !isConductor; //Flips value on click
+} 
 
 ///////////////////////
 // Timeline  Create  //
@@ -51,17 +44,9 @@ let tl = gsap.timeline({
     paused: true, //start paused for loading and sync
     onUpdate: () => {
         updateTrack++;
-        document.querySelector("#viewboxXpos").textContent = "viewbox X: " + getViewBoxX1().toString(); // TEMP FOR DYNAMICS ENTRY
-
+        // rate of dynamics update
         if (updateTrack % updateRate == 0) {
-            viewBoxX1 = getViewBoxX1();
-            if (performerValue !== ("allParts" || "bassPerformer")) {
-                // dynamicsUpdate();
-                updateDynamics();
-            }
-            if (performerValue == "allParts") {
-                getAllDynamics(viewBoxX1);
-            }
+            updateDynamics();
         }
     }
 });
@@ -85,8 +70,7 @@ let dynamics = {
         return "M " + this.ax + "," + this.ay + " " + this.attackRate + "," + this.attackAmp + " " + this.decayRate + "," + this.decayAmp + " H 30";
     },
 
-//TODO: this function name clashes with the update dynamics function for playback dynamics....
-    updateDynamics: function () {
+    updateADSGraph: function () {
         this.dynamicsStave.setAttribute("d", this.dString());
     },
 
@@ -97,7 +81,7 @@ let dynamics = {
             this.attackAmp = 0.2,
             this.decayRate = 12.0,
             this.decayAmp = 4.15,
-            this.updateDynamics();
+            this.updateADSGraph();
     },
 
     //helper to have numbers for from 0-10 (soft/slow to loud/fast), but 0==0.3 and 10==9.6 for svg overlap
@@ -115,13 +99,14 @@ let dynamics = {
                 break;
         }
     },
+
     setAttackRate: function (rate) {
         if (rate < this.getDecayRate()) {
             this.attackRate = rate;
         } else {
             this.attackRate = this.getDecayRate();
         }
-        this.updateDynamics();
+        this.updateADSGraph();
     },
     getAttackRate: function () {
         return this.attackRate
@@ -129,7 +114,7 @@ let dynamics = {
 
     setAttackAmp: function (amp) {
         this.attackAmp = this.flipScale(amp);
-        this.updateDynamics();
+        this.updateADSGraph();
     },
     getAttackAmp: function () {
         return this.attackAmp
@@ -141,7 +126,7 @@ let dynamics = {
         } else {
             this.decayRate = this.getAttackRate();
         }
-        this.updateDynamics();
+        this.updateADSGraph();
     },
     getDecayRate: function () {
         return this.decayRate
@@ -149,7 +134,7 @@ let dynamics = {
 
     setDecayAmp: function (amp) {
         this.decayAmp = this.flipScale(amp);
-        this.updateDynamics();
+        this.updateADSGraph();
     },
     getDecayAmp: function () {
         return this.decayAmp
@@ -165,8 +150,7 @@ let dynamics = {
 }
 
 // Dynamics fluid animation
-// gsap.to(dynamics, {attackRate: 1, duration:1, onUpdate: function() {dynamics.updateDynamics()}})
-// TODO: clean this copyPasta up
+// TODO: clean this copyPasta up, and integrate with dynamics object
 let animateSetADS = function (attR, attA, decR, decA, duration) {
     //Logic needed again for making parameter input sane...
     if (attR < dynamics.getDecayRate()) {
@@ -192,19 +176,16 @@ let animateSetADS = function (attR, attA, decR, decA, duration) {
         decayAmp: decA,
         duration: duration,
         onUpdate: function () {
-            dynamics.updateDynamics()
+            dynamics.updateADSGraph()
         }
     });
 }
 
 // Predefined dynamic staves for parts.
 let dynamicPreset = {
-    currentDynamic: "",
-    partDynamicsArrayPosition: 0,
-    "a1": () => animateSetADS(3, 10, 6, 7, 1),
-    "a2": () => animateSetADS(1, 10, 2, 3, 1),
-    "a3": () => animateSetADS(1, 10, 2, 9.5, 1),
-    
+    currentDynamic: "", // check to avoid dynamic display update 
+    partDynamicsArrayPosition: 0, // for individual part dynamic display logic
+
     "short attack, short decay, F sustain": () => animateSetADS(1, 10, 1, 8, 1),
     "short attack, short decay, M sustain": () => animateSetADS(1, 10, 1, 5, 1),
     "short attack, short decay, M sustain, long change": () => animateSetADS(1, 10, 1, 5, 10),
@@ -224,53 +205,25 @@ let dynamicPreset = {
 
     "long attack, mid decay, F sustain": () => animateSetADS(8, 10, 3, 8, 1),
     "long attack, mid decay, M sustain": () => animateSetADS(8, 10, 3, 5, 1),
+    "long attack, short decay, F sustain": () => animateSetADS(8,10,1,8,1),
 
     "final dim": () => animateSetADS(3,4,3,1,22),
 
     "end of piece": () => animateSetADS(0,0,0,0,1)
 }
 
-// Reset dynamic array to current viewboxX1
-let updateDynamics = function () {
-    let x1 = getViewBoxX1()
-    if (partChosen.partDynamics) {
-        for (let i = 0; i < partChosen.partDynamics.length - 1; i++) {
-            if (inRange(partChosen.partDynamics[i][0], partChosen.partDynamics[i + 1][0], x1)) {
-                // console.log(x1 + " falls in range of index " + i);
-                partChosen.partDynamicsArrayPosition = i;
+////////////////////////////////
+// Part Specific information  //
+////////////////////////////////
+/* 
+ViewBox magic numbers were found using inkscape.
+    Create a rectangle the width and height you want to display (2nd pair of coords in viewBox)
+    Align rectangle with stave in inkscape and use the numbers in the top coordinate bar while in the move tool.
 
-                if (dynamicPreset.currentDynamic != partChosen.partDynamics[i][1]) {
-                    dynamicPreset[partChosen.partDynamics[i][1]]();
-
-                    dynamicPreset.currentDynamic = partChosen.partDynamics[i][1];
-                }
-            }
-        }
-    }
-}
-
-//////////////////////////////////
-// Create Part ViewBox values   //
-//////////////////////////////////
-// ViewBox magic numbers were found using inkscape.
-// Create a rectangle the width and height you want to display (2nd pair of coords in viewBox)
-// Align rectangle with stave in inkscape and use the numbers in the top coordinate bar while in the move tool.
-// 
-// improve part creation attackAmp using less magic numbers,
-//      ie: individual parts share x1,x2,x3 of start and end
-
-let viewBoxDim = {
-    x1: 0,
-    x2: 1000,
-    y2: 550
-}
-
-// All Parts
-let allParts = {
-    start: "0 140 5000 2635",
-    end: "288000 140 5000 2635"
-}
-// part specific dynamics should entered here::
+Dynamics are entered following this convention:
+    [ xPosition at end of dynamic section, dynamic preset to call ]
+    music include an end of array dummy call to avoid out of bounds error
+*/
 
 // Bass Part
 let bassPerformer = {
@@ -311,7 +264,7 @@ let performer1 = {
         [249000, "short attack, short decay, M sustain"],
         [279000, "final dim"],
         [287600, "end of piece"],
-        [288000, "end of piece"]
+        [288000, "end of array"]
     ]
 }
 // Performer 2 Part
@@ -349,7 +302,7 @@ let performer2 = {
         [235500, "short attack, short decay, M sustain"],
         [279000, "final dim"],
         [287600, "end of piece"],
-        [288000, "end of piece"]
+        [288000, "end of array"]
     ]
 }
 // Performer 3 Part
@@ -382,7 +335,7 @@ let performer3 = {
         //R5
         [279000, "final dim"],
         [287600, "end of piece"],
-        [288000, "end of piece"]
+        [288000, "end of array"]
     ]
 }
 // Performer 4 Part
@@ -415,13 +368,21 @@ let performer4 = {
         [258900, "short attack, short decay, F sustain"],
         [279000, "final dim"],
         [287600, "end of piece"],
-        [288000, "end of piece"]
+        [288000, "end of array"]
     ]
+}
+
+// All Parts, created at the end of performer list to collect dynamics from all parts.
+let allParts = {
+    start: "0 140 5000 2635",
+    end: "288000 140 5000 2635",
+    partDynamics: [performer1.partDynamics, performer2.partDynamics, performer3.partDynamics, performer4.partDynamics], // part dynamics collected in nested array for display
+    dynamicDisplays: document.querySelector("#floatingTextDynamics").children, // HTML paragraph elements to display dynamics
 }
 
 /////////////////////////////////////////////////////////////
 // Generic Part Object to load Part ViewBox values into
-// TODO: this object should contain all dynamics
+// TODO: this object could contain all dynamics
 
 let part = {
     viewBox: {
@@ -456,44 +417,44 @@ let part = {
     }
 }
 
-///////////////////
-// Dynamic Check
+/////////////////////////////
+// Dynamic display updates //
+/////////////////////////////
+// TODO: ideally include in dynamics object, will need a lot of "this."'s
 
-/////
-// Collect all Part dynamics into an array
-let allPartDynamics = [performer1.partDynamics, performer2.partDynamics, performer3.partDynamics, performer4.partDynamics];
-// collect all Parts floating text boxes for dynamic displays
-let allPartDynamicDisplays = document.querySelector("#floatingTextDynamics").children;
+let updateDynamics = function (x1) {
+    if (typeof x1 === "undefined") {
+        x1 = getViewBoxX1();
+    }
+    // Display dynamics if individual part chosen
+    if (performerValue !== ("allParts" || "bassPerformer")) {
+        if (partChosen.partDynamics) {
+            for (let i = 0; i < partChosen.partDynamics.length - 1; i++) {
+                if (inRange(partChosen.partDynamics[i][0], partChosen.partDynamics[i + 1][0], x1)) {
+                    // console.log(x1 + " falls in range of index " + i);
+                    partChosen.partDynamicsArrayPosition = i;
 
-// Returns all part dynamics at current ViewBoxX1 position, and displays in html elements
-let getAllDynamics = function (x1) {
-    if(typeof x1 === "undefined"){x1 = getViewBoxX1();}
-    // console.log("-------------------------------------------");
-    // console.log("At ViewboxX1 = " + x1 + " the dynamics are:");
-
-    for (let j = 0; j < allPartDynamics.length; j++) {
-        for (let i = 0; i < allPartDynamics[j].length - 1; i++) {
-            if (inRange(allPartDynamics[j][i][0], allPartDynamics[j][i + 1][0], x1)) {
-                // console.log("Part " + (j+1) + " dynamic is: " + allPartDynamics[j][i][1]);
-                allPartDynamicDisplays[j].innerText = allPartDynamics[j][i][1];
+                    // avoid calling dynamic display change unless new dynamic is called
+                    if (dynamicPreset.currentDynamic != partChosen.partDynamics[i][1]) {
+                        dynamicPreset[partChosen.partDynamics[i][1]]();
+                        dynamicPreset.currentDynamic = partChosen.partDynamics[i][1];
+                    }
+                }
+            }
+        }
+    }
+    // Display dynamic if whole score is displayed
+    if (performerValue == "allParts") {
+        for (let j = 0; j < allParts.partDynamics.length; j++) {
+            for (let i = 0; i < allParts.partDynamics[j].length - 1; i++) {
+                if (inRange(allParts.partDynamics[j][i][0], allParts.partDynamics[j][i + 1][0], x1)) {
+                    // console.log("Part " + (j+1) + " dynamic is: " + allPartDynamics[j][i][1]);
+                    allParts.dynamicDisplays[j].innerText = allParts.partDynamics[j][i][1];
+                }
             }
         }
     }
 }
-
-// TODO: show all dynamics for whole score view...
-// Going to need some serious refactoring of individual part dynamics
-// create new dynamics object and treat it as such, make the animate function object specific
-// STOP MIXING OOP with whatever it is you're doing!
-
-
-/// Dom Button
-
-let logAllDynamicsButton = document.querySelector("#getAllParts");
-logAllDynamicsButton.onclick = function () { getAllDynamics()}
-
-
-
 
 //////////////////////////////////////
 // Create part and init all things  //
@@ -535,17 +496,15 @@ let loadPerformer = function () {
     }
     //console.log(performerValue);
     if (performerValue != "allParts") {
-        //Ugly way to resize playLine
-        document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 100%;");
+        document.querySelector("#playLine").setAttribute("style", "z-index:100; position:absolute; width: 37.4%; height: 100%;"); // Ugly way to resize playLine
         document.querySelector("#floatingTextDynamics").setAttribute("class", "hidden"); // toggle hidden for all dynamics text displays
         if (performerValue != "bassPerformer") {
-            document.querySelector("#ds").setAttribute("class", "");
-        } // toggle hidden for dynamics stave
+            document.querySelector("#ds").setAttribute("class", ""); // toggle hidden for dynamics stave
+        } 
     }
     part.set(partChosen);
     tl.totalTime(timeOnClick);
     updateDynamics();
-    getAllDynamics();
     if (isActive) {
         tl.play()
     };
@@ -557,10 +516,6 @@ performerLoad.onclick = function () {
 
 // init all parts
 loadPerformer()
-
-
-
-
 
 //////////////////////
 // rehearsal marks  //
@@ -595,7 +550,6 @@ seekToMark = function (mark) {
             break;
     }
     updateDynamics();
-    getAllDynamics();
 }
 
 rehearsalMarkSeek.onclick = function () {
@@ -607,15 +561,12 @@ rehearsalMarkSeek.onclick = function () {
     }
 };
 
-
-
 ////////////////////////
 // Playback Functions //
 ////////////////////////
 
 playScore = function () {
     updateDynamics();
-    getAllDynamics();
     tl.timeScale(1);
     tl.play();
 }
@@ -687,7 +638,7 @@ webSocket.on("serverSays", (arg) => {
             break;
     };
 })
+
 webSocket.on("serverRehearsalMark", (arg) => {
     seekToMark(arg);
 })
-
