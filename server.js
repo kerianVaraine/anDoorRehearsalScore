@@ -1,47 +1,34 @@
-// Utilities
-const path = require('path');
-const os = require('os');
-let networkInterfaces = os.networkInterfaces();
-
 // hosting specifics
+const path = require('path');
 const compression = require('compression');
 
 // Server reqs
 const express = require('express');
-const http = require('http');
-const serverIp = os.networkInterfaces()['en0'][1]['address'];
-let port = process.env.PORT;
-if (port == null || port == "") {
-    port = 8000;
-}
+const socketIO = require('socket.io');
 
-const app = express();
-const server = http.createServer(app);
-const { Server, Socket } = require('socket.io');
-const io = new Server(server, {cors: {origin: serverIp + ':' + port}}); // mime type work around
+let PORT = process.env.PORT;
+if (PORT == null || PORT == "") {
+    PORT = 3000;
+};
 
-
-
-/////////////////////////
-// Express Server Code //
-/////////////////////////
+const server = express();
+const io = socketIO(server);
 
 //Compress all routes
-app.use(compression());
+server.use(compression());
 
 // Use things in public folder
-app.use(express.static('public'))
+server.use(express.static('public'));
 
 // serve HTML
-app.get('/', (req, res) => {
+server.get('/', (req, res) => {
  // Serve HTML
     res.sendFile(path.join(__dirname, 'index.html'));
-})
+});
 
-server.listen(port, function() {
-    // console.log('listening http://localhost:' + port);
-    console.log('listening ' + serverIp + ':' + port);
-})
+server.listen(PORT, function() {
+    console.log('listening on ' + PORT);
+});
 
 //////////////////
 // Socket.io    //
@@ -61,13 +48,13 @@ io.on('connection', (socket) => {
 
     // messages from clients with "conductorSays" passes request to all clients including sender
    socket.on("conductorSays", (arg, callback) => {
-        console.log("conductor says: " + arg);
+        // console.log("conductor says: " + arg);
         io.sockets.emit('serverSays', arg); // io.sockets to send to all connected clients
     });
 
     // Rehearsal Mark specific listener
     socket.on("conductorRehearsalMark", (arg, callback) => {
-        console.log("conductor rehearsal mark: " + arg);
+        // console.log("conductor rehearsal mark: " + arg);
         io.sockets.emit('serverRehearsalMark', arg); // io.sockets to send to all connected clients
     });
 });
