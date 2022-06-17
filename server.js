@@ -10,7 +10,7 @@ const compression = require('compression');
 const express = require('express');
 const http = require('http');
 const serverIp = os.networkInterfaces()['en0'][1]['address'];
-const PORT = 8888;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 const server = http.createServer(app);
