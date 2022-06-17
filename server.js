@@ -1,9 +1,8 @@
 // hosting specifics
 const path = require('path');
-const compression = require('compression');
 
 // Server reqs
-const express = require('express');
+const express = require('express')();
 const socketIO = require('socket.io');
 
 let PORT = process.env.PORT;
@@ -11,11 +10,8 @@ if (PORT == null || PORT == "") {
     PORT = 3000;
 };
 
-const server = express();
+const server = require("http").createServer(express);
 const io = socketIO(server);
-
-//Compress all routes
-server.use(compression());
 
 // Use things in public folder
 server.use(express.static('public'));

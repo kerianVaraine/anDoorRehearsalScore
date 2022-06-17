@@ -2,7 +2,8 @@
   "name": "andoorperformancescore",
   "version": "1.0.0",
   "engines": {
-    "node": "17.8.0"
+    "node": "17.8.0",
+    "npm": "8.11.0"
   },
   "description": "",
   "main": "main.js",
