@@ -30,6 +30,11 @@ let isConductor = false;
 let conductorSelect = document.getElementById("conductorSelect");
 conductorSelect.onclick = function () {
     isConductor = !isConductor; //Flips value on click
+    if(isConductor){
+        document.querySelector("#conductorText").innerText = "You are a conductor: playback and rehearsal mark controls effect all online users.";
+    } else {
+        document.querySelector("#conductorText").innerText = "";
+    }
 } 
 
 ///////////////////////
@@ -620,6 +625,28 @@ speedBackward.onclick = function () {
 speedForward.onclick = function () {
     fastForward();
 }
+
+// Performance Notes
+performanceNotesState = false;
+performanceNotes = document.querySelector("#performanceNotesDisplay");
+performanceNotesButton = document.querySelector("#performanceNotesButton");
+
+performanceNotesButton.onclick = function() {
+    if (!performanceNotesState){
+        performanceNotesButton.setAttribute("style", "background: #A44; color: #FFF");
+    performanceNotes.setAttribute("class", "");
+    document.querySelector("#scoreStage").setAttribute("class", "hidden");
+    }
+    else {
+        performanceNotesButton.setAttribute("style", "");
+        performanceNotes.setAttribute("class", "hidden");
+    document.querySelector("#scoreStage").setAttribute("class", "");
+    }
+    performanceNotesState=!performanceNotesState;
+}
+
+
+
 
 //////////////////////////////////////
 // Server message receive and act   //
