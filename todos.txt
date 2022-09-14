@@ -41,3 +41,27 @@ Score Finishing:
         Attack Decay Sustain x axis, y axis = loudness ie:pp->ff
         Release is shown through dynamics in score. used sparingly. 
             If no dynamics then abrupt end to note
+
+
+REDOING SCORE FROM SCRATCH:
+Export from sibelius as svg
+Using inkscape 1.0.2; seperately group all noteheads, staves, clefs, accidentals, rehearsal marks etc
+object to path and triple check each group
+You can filter different text based note heads and accidentals using the find function
+
+save as compressed svg with appropriate options, ends up round 550kb. 
+
+
+--Optimizing steps
+Trying to reduce object count? path sizes? for smoother animation.
+Deep Ungroup
+merge paths like noteheads and duration lines? 
+	-would have to be done individually per section... could clean up nicer with little bumps on notepads though...
+
+Keeping the document size to what sibelius exports as is important to my use case, it keeps the numbers clean in web code as I started with sibelius standard margins for score start
+Duration lines should actually be lines and not rectangle paths. this happened because of how sibelius draws the beams I used to make the lines. Next time I'll find a better method of creating these scores.
+
+
+
+Huge Difference in CPU usage even just doing a path union per part, creating 5 long ass paths. Also size reduced dramatically. Still room to be better, but not sure how much better it can be...
+Vector NANO makes it go slower... not good.

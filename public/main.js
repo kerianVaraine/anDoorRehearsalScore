@@ -227,7 +227,7 @@ ViewBox magic numbers were found using inkscape.
 
 Dynamics are entered following this convention:
     [ xPosition at end of dynamic section, dynamic preset to call ]
-    music include an end of array dummy call to avoid out of bounds error
+    must include an end of array dummy call to avoid out of bounds error
 */
 
 // Bass Part
@@ -540,13 +540,13 @@ seekToMark = function (mark) {
             tl.totalTime(90.709);
             break;
         case "R2":
-            tl.totalTime(215.176);
+            tl.totalTime(215.424);
             break;
         case "R3":
-            tl.totalTime(392);
+            tl.totalTime(392.268);
             break;
         case "R4":
-            tl.totalTime(534.525);
+            tl.totalTime(535.473);
             break;
         case "R5":
             tl.totalTime(690.268);
