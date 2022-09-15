@@ -4,6 +4,11 @@
 // open connection to server
 var webSocket = io();
 
+//////////////////////////////////
+// GSAP precise decimal plugin: ///////////////////////////////////////////////////////////////////////////
+// https://greensock.com/forums/topic/25830-tweening-value-with-large-number-of-decimals/#comment-125391 //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 /////////////////////
 // anDoor Specific //
 /////////////////////
@@ -15,7 +20,7 @@ let getScoreViewBox = function () {
 };
 
 // x axis value of svg viewbox.
-viewBoxX1 = 0;
+let viewBoxX1 = 0;
 let getViewBoxX1 = function () {
     return parseInt(getScoreViewBox()[0]);
 }
@@ -42,8 +47,10 @@ conductorSelect.onclick = function () {
 ///////////////////////
 let pieceDuration = (14 * 60) + 5; //14:30
 
-let updateRate = 60; // rate to update viewbox X1 position in timeline.onUpdate function
+let updateRate = 30; // rate to update viewbox X1 position in timeline.onUpdate function
 let updateTrack = 0; // modulo track time for timeline.onUpdate function
+// let debugTime = document.querySelector("#debugPlayValue");
+gsap.ticker.fps(updateRate);
 
 let tl = gsap.timeline({
     paused: true, //start paused for loading and sync
@@ -53,6 +60,7 @@ let tl = gsap.timeline({
         if (updateTrack % updateRate == 0) {
             updateDynamics();
         }
+        // debugTime.innerText = getViewBoxX1();
     }
 });
 
@@ -404,10 +412,11 @@ let part = {
     set: function (performer) {
         this.viewBox.start = performer.start;
         this.viewBox.end = performer.end;
+        //define what is animated here.
         this.gsapTo = gsap.to(
             "#fullScore", {
                 attr: {
-                    viewBox: performer.end
+                    viewBox: performer.end //this is the animated attribute
                 },
                 duration: pieceDuration,
                 repeat: 0,
