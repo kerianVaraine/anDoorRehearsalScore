@@ -13,6 +13,9 @@ html {
     height: auto;
     width: 100%;
 }
+#fullScore {
+    position: relative;
+}
 #performanceNotesDisplay {
     height:auto;
     width:100%;

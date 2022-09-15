@@ -65,3 +65,15 @@ Duration lines should actually be lines and not rectangle paths. this happened b
 
 Huge Difference in CPU usage even just doing a path union per part, creating 5 long ass paths. Also size reduced dramatically. Still room to be better, but not sure how much better it can be...
 Vector NANO makes it go slower... not good.
+
+
+Optimize final steps:
+-- Loading performance notes dynamically from contents of svg.
+Much better than having it in-line always loaded and just hidden.
+CODE:
+(async () => {
+        const perfNotesSVG = await (await fetch("./assets/performanceNotes.svg")).text();
+        performanceNotes.innerHTML = perfNotesSVG;
+    })();
+
+    Reuse same kind of code to load in the score in parts, depending on which part is selected. Needs testing, but should work ok...

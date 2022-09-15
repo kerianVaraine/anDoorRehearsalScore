@@ -47,7 +47,7 @@ conductorSelect.onclick = function () {
 ///////////////////////
 let pieceDuration = (14 * 60) + 5; //14:30
 
-let updateRate = 30; // rate to update viewbox X1 position in timeline.onUpdate function
+let updateRate = 60; // rate to update viewbox X1 position in timeline.onUpdate function
 let updateTrack = 0; // modulo track time for timeline.onUpdate function
 // let debugTime = document.querySelector("#debugPlayValue");
 gsap.ticker.fps(updateRate);
@@ -645,10 +645,17 @@ performanceNotesButton.onclick = function() {
         performanceNotesButton.setAttribute("style", "background: #A44; color: #FFF");
     performanceNotes.setAttribute("class", "");
     document.querySelector("#scoreStage").setAttribute("class", "hidden");
+    // inject svg here from external file
+    (async () => {
+        const perfNotesSVG = await (await fetch("./assets/performanceNotes.svg")).text();
+        performanceNotes.innerHTML = perfNotesSVG;
+    })();
+    //
     }
     else {
         performanceNotesButton.setAttribute("style", "");
         performanceNotes.setAttribute("class", "hidden");
+        performanceNotes.innerHTML = ''; //remove svg
     document.querySelector("#scoreStage").setAttribute("class", "");
     }
     performanceNotesState=!performanceNotesState;
