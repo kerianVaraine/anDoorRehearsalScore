@@ -14,7 +14,7 @@ var webSocket = io();
 /////////////////////
 //
 // Score reference
-let score = document.getElementById("fullScore");
+let score = document.getElementById("fullScore"); // also used in load performer part
 let getScoreViewBox = function () {
     return score.attributes.viewBox.value.split(" ")
 };
@@ -241,13 +241,15 @@ Dynamics are entered following this convention:
 // Bass Part
 let bassPerformer = {
     start: "0 127.188 1000 550",
-    end: "288000 127.188 1000 550"
+    end: "288000 127.188 1000 550",
+    scoreToFetch: "./assets/Score/BassPart.svg" 
 }
 
 // Performer 1 Part
 let performer1 = {
     start: "0 654.813 1000 550",
     end: "288000 654.813 1000 550",
+    scoreToFetch: "./assets/Score/Violin1Part.svg", 
     partDynamics: [
         // [ xPosition at end of dynamic section, dynamic preset to call ], must include end of piece entry
         [0, "mid attack, mid decay, F sustain"],
@@ -284,6 +286,7 @@ let performer1 = {
 let performer2 = {
     start: "0 1182.438 1000 550",
     end: "288000 1182.438 1000 550",
+    scoreToFetch: "./assets/Score/Violin2Part.svg", 
     partDynamics: [
         [0, "mid attack, mid decay, F sustain"],
         [13600, "short attack, short decay, F sustain"],
@@ -322,6 +325,7 @@ let performer2 = {
 let performer3 = {
     start: "0 1710.063 1000 550",
     end: "288000 1710.063 1000 550",
+    scoreToFetch: "./assets/Score/ViolaPart.svg", 
     partDynamics: [
         [0, "mid attack, mid decay, F sustain"],
         [8700, "short attack, short decay, F sustain"],
@@ -355,6 +359,7 @@ let performer3 = {
 let performer4 = {
     start: "0 2237.688 1000 550",
     end: "288000 2237.688 1000 550",
+    scoreToFetch: "./assets/Score/CelloPart.svg", 
     partDynamics: [
         [0, "mid attack, mid decay, F sustain"],
         //R1
@@ -389,6 +394,7 @@ let performer4 = {
 let allParts = {
     start: "0 140 5000 2635",
     end: "288000 140 5000 2635",
+    scoreToFetch: "./assets/Score/FullScore.svg", 
     partDynamics: [performer1.partDynamics, performer2.partDynamics, performer3.partDynamics, performer4.partDynamics], // part dynamics collected in nested array for display
     dynamicDisplays: document.querySelector("#floatingTextDynamics").children, // HTML paragraph elements to display dynamics
 }
@@ -410,6 +416,10 @@ let part = {
     },
 
     set: function (performer) {
+        this.loadPart = (async () => {
+            const part = await (await fetch(performer.scoreToFetch)).text();
+            score.innerHTML = part;
+        })();
         this.viewBox.start = performer.start;
         this.viewBox.end = performer.end;
         //define what is animated here.
@@ -476,6 +486,7 @@ let updateDynamics = function (x1) {
 
 const performerMenu = document.querySelector("#performerMenu");
 const performerLoad = document.querySelector("#performerLoad");
+
 
 let loadPerformer = function () {
     timeOnClick = tl.totalTime();
