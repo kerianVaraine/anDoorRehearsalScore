@@ -4,11 +4,6 @@
 // open connection to server
 var webSocket = io();
 
-//////////////////////////////////
-// GSAP precise decimal plugin: ///////////////////////////////////////////////////////////////////////////
-// https://greensock.com/forums/topic/25830-tweening-value-with-large-number-of-decimals/#comment-125391 //
-///////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 /////////////////////
 // anDoor Specific //
 /////////////////////
@@ -416,8 +411,9 @@ let part = {
     },
 
     set: function (performer) {
+        // Loads and inserts the part.svg
         this.loadPart = (async () => {
-            const part = await (await fetch(performer.scoreToFetch)).text();
+            const part = await (await fetch(performer.scoreToFetch)).text(); 
             score.innerHTML = part;
         })();
         this.viewBox.start = performer.start;
