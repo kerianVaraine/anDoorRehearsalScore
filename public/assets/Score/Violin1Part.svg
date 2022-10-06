@@ -1,0 +1,1627 @@
+  <desc
+     id="desc4">Generated with Qt</desc>
+  <defs
+     id="defs6" />
+  <g
+     inkscape:groupmode="layer"
+     id="InitLinePart"
+     inkscape:label="InitLine"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <polyline
+       fill="none"
+       vector-effect="none"
+       points="374,651 374,4531 "
+       id="polyline8"
+       transform="scale(0.5625)"
+       style="fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="Violin1Part"
+     inkscape:label="Violin1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="Violin1PartLedgerLines"
+       transform="scale(0.5625)"
+       style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" >
+      <polyline
+         vector-effect="none"
+         points="22529,1557 22580,1557 "
+         id="polyline4414" />
+      <polyline
+         vector-effect="none"
+         points="27576,1557 27627,1557 "
+         id="polyline4426" />
+      <polyline
+         vector-effect="none"
+         points="27576,1525 27627,1525 "
+         id="polyline4430" />
+      <polyline
+         vector-effect="none"
+         points="27576,1493 27627,1493 "
+         id="polyline4434" />
+      <polyline
+         vector-effect="none"
+         points="28137,1557 28188,1557 "
+         id="polyline4442" />
+      <polyline
+         vector-effect="none"
+         points="28137,1525 28188,1525 "
+         id="polyline4446" />
+      <polyline
+         vector-effect="none"
+         points="28137,1493 28188,1493 "
+         id="polyline4450" />
+      <polyline
+         vector-effect="none"
+         points="28417,1557 28468,1557 "
+         id="polyline4458" />
+      <polyline
+         vector-effect="none"
+         points="28697,1557 28748,1557 "
+         id="polyline4466" />
+      <polyline
+         vector-effect="none"
+         points="28978,1557 29029,1557 "
+         id="polyline4474" />
+      <polyline
+         vector-effect="none"
+         points="29118,1557 29169,1557 "
+         id="polyline4482" />
+      <polyline
+         vector-effect="none"
+         points="29819,1557 29870,1557 "
+         id="polyline4490" />
+      <polyline
+         vector-effect="none"
+         points="38339,1557 38390,1557 "
+         id="polyline4518" />
+      <polyline
+         vector-effect="none"
+         points="38339,1525 38390,1525 "
+         id="polyline4522" />
+      <polyline
+         vector-effect="none"
+         points="38339,1493 38390,1493 "
+         id="polyline4526" />
+      <polyline
+         vector-effect="none"
+         points="46751,1557 46802,1557 "
+         id="polyline4534" />
+      <polyline
+         vector-effect="none"
+         points="46751,1525 46802,1525 "
+         id="polyline4538" />
+      <polyline
+         vector-effect="none"
+         points="46751,1493 46802,1493 "
+         id="polyline4542" />
+      <polyline
+         vector-effect="none"
+         points="47598,1557 47649,1557 "
+         id="polyline4550" />
+      <polyline
+         vector-effect="none"
+         points="47598,1525 47649,1525 "
+         id="polyline4554" />
+      <polyline
+         vector-effect="none"
+         points="47598,1493 47649,1493 "
+         id="polyline4558" />
+      <polyline
+         vector-effect="none"
+         points="64212,1557 64263,1557 "
+         id="polyline4566" />
+      <polyline
+         vector-effect="none"
+         points="64212,1525 64263,1525 "
+         id="polyline4570" />
+      <polyline
+         vector-effect="none"
+         points="64913,1557 64964,1557 "
+         id="polyline4582" />
+      <polyline
+         vector-effect="none"
+         points="64913,1525 64964,1525 "
+         id="polyline4586" />
+      <polyline
+         vector-effect="none"
+         points="65333,1557 65384,1557 "
+         id="polyline4594" />
+      <polyline
+         vector-effect="none"
+         points="65333,1525 65384,1525 "
+         id="polyline4598" />
+      <polyline
+         vector-effect="none"
+         points="66455,1557 66506,1557 "
+         id="polyline4606" />
+      <polyline
+         vector-effect="none"
+         points="66455,1525 66506,1525 "
+         id="polyline4610" />
+      <polyline
+         vector-effect="none"
+         points="69038,1557 69089,1557 "
+         id="polyline4618" />
+      <polyline
+         vector-effect="none"
+         points="69038,1525 69089,1525 "
+         id="polyline4622" />
+      <polyline
+         vector-effect="none"
+         points="69318,1557 69369,1557 "
+         id="polyline4630" />
+      <polyline
+         vector-effect="none"
+         points="69318,1525 69369,1525 "
+         id="polyline4634" />
+      <polyline
+         vector-effect="none"
+         points="69318,1493 69369,1493 "
+         id="polyline4638" />
+      <polyline
+         vector-effect="none"
+         points="70878,1557 70929,1557 "
+         id="polyline4646" />
+      <polyline
+         vector-effect="none"
+         points="70878,1525 70929,1525 "
+         id="polyline4650" />
+      <polyline
+         vector-effect="none"
+         points="71299,1557 71350,1557 "
+         id="polyline4658" />
+      <polyline
+         vector-effect="none"
+         points="71299,1525 71350,1525 "
+         id="polyline4662" />
+      <polyline
+         vector-effect="none"
+         points="72082,1557 72133,1557 "
+         id="polyline4670" />
+      <polyline
+         vector-effect="none"
+         points="72082,1525 72133,1525 "
+         id="polyline4674" />
+      <polyline
+         vector-effect="none"
+         points="74985,1557 75036,1557 "
+         id="polyline4682" />
+      <polyline
+         vector-effect="none"
+         points="74985,1525 75036,1525 "
+         id="polyline4686" />
+      <polyline
+         vector-effect="none"
+         points="77672,1557 77723,1557 "
+         id="polyline4694" />
+      <polyline
+         vector-effect="none"
+         points="77672,1525 77723,1525 "
+         id="polyline4698" />
+      <polyline
+         vector-effect="none"
+         points="77672,1493 77723,1493 "
+         id="polyline4702" />
+      <polyline
+         vector-effect="none"
+         points="79085,1557 79136,1557 "
+         id="polyline4710" />
+      <polyline
+         vector-effect="none"
+         points="79085,1525 79136,1525 "
+         id="polyline4714" />
+      <polyline
+         vector-effect="none"
+         points="80066,1557 80117,1557 "
+         id="polyline4722" />
+      <polyline
+         vector-effect="none"
+         points="80066,1525 80117,1525 "
+         id="polyline4726" />
+      <polyline
+         vector-effect="none"
+         points="80497,1557 80548,1557 "
+         id="polyline4734" />
+      <polyline
+         vector-effect="none"
+         points="80497,1525 80548,1525 "
+         id="polyline4738" />
+      <polyline
+         vector-effect="none"
+         points="80637,1557 80688,1557 "
+         id="polyline4746" />
+      <polyline
+         vector-effect="none"
+         points="80637,1525 80688,1525 "
+         id="polyline4750" />
+      <polyline
+         vector-effect="none"
+         points="80637,1493 80688,1493 "
+         id="polyline4754" />
+      <polyline
+         vector-effect="none"
+         points="84097,1557 84148,1557 "
+         id="polyline4762" />
+      <polyline
+         vector-effect="none"
+         points="84097,1525 84148,1525 "
+         id="polyline4766" />
+      <polyline
+         vector-effect="none"
+         points="84237,1557 84288,1557 "
+         id="polyline4774" />
+      <polyline
+         vector-effect="none"
+         points="84237,1525 84288,1525 "
+         id="polyline4778" />
+      <polyline
+         vector-effect="none"
+         points="84491,1557 84542,1557 "
+         id="polyline4786" />
+      <polyline
+         vector-effect="none"
+         points="84491,1525 84542,1525 "
+         id="polyline4790" />
+      <polyline
+         vector-effect="none"
+         points="85136,1557 85187,1557 "
+         id="polyline4798" />
+      <polyline
+         vector-effect="none"
+         points="85136,1525 85187,1525 "
+         id="polyline4802" />
+      <polyline
+         vector-effect="none"
+         points="85294,1557 85345,1557 "
+         id="polyline4810" />
+      <polyline
+         vector-effect="none"
+         points="85294,1525 85345,1525 "
+         id="polyline4814" />
+      <polyline
+         vector-effect="none"
+         points="85574,1557 85625,1557 "
+         id="polyline4822" />
+      <polyline
+         vector-effect="none"
+         points="85574,1525 85625,1525 "
+         id="polyline4826" />
+      <polyline
+         vector-effect="none"
+         points="85650,1557 85701,1557 "
+         id="polyline4834" />
+      <polyline
+         vector-effect="none"
+         points="85650,1525 85701,1525 "
+         id="polyline4838" />
+      <polyline
+         vector-effect="none"
+         points="85802,1557 85853,1557 "
+         id="polyline4846" />
+      <polyline
+         vector-effect="none"
+         points="85802,1525 85853,1525 "
+         id="polyline4850" />
+      <polyline
+         vector-effect="none"
+         points="85878,1557 85929,1557 "
+         id="polyline4858" />
+      <polyline
+         vector-effect="none"
+         points="85878,1525 85929,1525 "
+         id="polyline4862" />
+      <polyline
+         vector-effect="none"
+         points="86018,1557 86069,1557 "
+         id="polyline4870" />
+      <polyline
+         vector-effect="none"
+         points="86018,1525 86069,1525 "
+         id="polyline4874" />
+      <polyline
+         vector-effect="none"
+         points="86705,1557 86756,1557 "
+         id="polyline4882" />
+      <polyline
+         vector-effect="none"
+         points="86705,1525 86756,1525 "
+         id="polyline4886" />
+      <polyline
+         vector-effect="none"
+         points="86805,1557 86856,1557 "
+         id="polyline4894" />
+      <polyline
+         vector-effect="none"
+         points="86805,1525 86856,1525 "
+         id="polyline4898" />
+      <polyline
+         vector-effect="none"
+         points="86915,1557 86966,1557 "
+         id="polyline4906" />
+      <polyline
+         vector-effect="none"
+         points="86915,1525 86966,1525 "
+         id="polyline4910" />
+      <polyline
+         vector-effect="none"
+         points="87027,1557 87078,1557 "
+         id="polyline4918" />
+      <polyline
+         vector-effect="none"
+         points="87027,1525 87078,1525 "
+         id="polyline4922" />
+      <polyline
+         vector-effect="none"
+         points="87140,1557 87191,1557 "
+         id="polyline4930" />
+      <polyline
+         vector-effect="none"
+         points="87140,1525 87191,1525 "
+         id="polyline4934" />
+      <polyline
+         vector-effect="none"
+         points="87421,1557 87472,1557 "
+         id="polyline4942" />
+      <polyline
+         vector-effect="none"
+         points="87421,1525 87472,1525 "
+         id="polyline4946" />
+      <polyline
+         vector-effect="none"
+         points="87635,1557 87686,1557 "
+         id="polyline4954" />
+      <polyline
+         vector-effect="none"
+         points="87635,1525 87686,1525 "
+         id="polyline4958" />
+      <polyline
+         vector-effect="none"
+         points="87711,1557 87762,1557 "
+         id="polyline4966" />
+      <polyline
+         vector-effect="none"
+         points="87711,1525 87762,1525 "
+         id="polyline4970" />
+      <polyline
+         vector-effect="none"
+         points="87905,1557 87956,1557 "
+         id="polyline4978" />
+      <polyline
+         vector-effect="none"
+         points="87905,1525 87956,1525 "
+         id="polyline4982" />
+      <polyline
+         vector-effect="none"
+         points="88280,1557 88331,1557 "
+         id="polyline4990" />
+      <polyline
+         vector-effect="none"
+         points="88280,1525 88331,1525 "
+         id="polyline4994" />
+      <polyline
+         vector-effect="none"
+         points="88280,1493 88331,1493 "
+         id="polyline4998" />
+      <polyline
+         vector-effect="none"
+         points="91282,1557 91333,1557 "
+         id="polyline5006" />
+      <polyline
+         vector-effect="none"
+         points="91282,1525 91333,1525 "
+         id="polyline5010" />
+      <polyline
+         vector-effect="none"
+         points="92411,1557 92462,1557 "
+         id="polyline5018" />
+      <polyline
+         vector-effect="none"
+         points="92411,1525 92462,1525 "
+         id="polyline5022" />
+      <polyline
+         vector-effect="none"
+         points="93013,1557 93064,1557 "
+         id="polyline5030" />
+      <polyline
+         vector-effect="none"
+         points="93013,1525 93064,1525 "
+         id="polyline5034" />
+      <polyline
+         vector-effect="none"
+         points="93574,1557 93625,1557 "
+         id="polyline5042" />
+      <polyline
+         vector-effect="none"
+         points="93574,1525 93625,1525 "
+         id="polyline5046" />
+      <polyline
+         vector-effect="none"
+         points="93790,1557 93841,1557 "
+         id="polyline5054" />
+      <polyline
+         vector-effect="none"
+         points="93790,1525 93841,1525 "
+         id="polyline5058" />
+      <polyline
+         vector-effect="none"
+         points="93869,1557 93920,1557 "
+         id="polyline5066" />
+      <polyline
+         vector-effect="none"
+         points="93869,1525 93920,1525 "
+         id="polyline5070" />
+      <polyline
+         vector-effect="none"
+         points="94215,1557 94266,1557 "
+         id="polyline5078" />
+      <polyline
+         vector-effect="none"
+         points="94215,1525 94266,1525 "
+         id="polyline5082" />
+      <polyline
+         vector-effect="none"
+         points="95392,1557 95443,1557 "
+         id="polyline5090" />
+      <polyline
+         vector-effect="none"
+         points="95392,1525 95443,1525 "
+         id="polyline5094" />
+      <polyline
+         vector-effect="none"
+         points="95392,1493 95443,1493 "
+         id="polyline5098" />
+      <polyline
+         vector-effect="none"
+         points="95987,1557 96038,1557 "
+         id="polyline5106" />
+      <polyline
+         vector-effect="none"
+         points="95987,1525 96038,1525 "
+         id="polyline5110" />
+      <polyline
+         vector-effect="none"
+         points="95987,1493 96038,1493 "
+         id="polyline5114" />
+      <polyline
+         vector-effect="none"
+         points="96407,1557 96458,1557 "
+         id="polyline5122" />
+      <polyline
+         vector-effect="none"
+         points="96407,1525 96458,1525 "
+         id="polyline5126" />
+      <polyline
+         vector-effect="none"
+         points="96407,1493 96458,1493 "
+         id="polyline5130" />
+      <polyline
+         vector-effect="none"
+         points="96895,1557 96946,1557 "
+         id="polyline5138" />
+      <polyline
+         vector-effect="none"
+         points="96895,1525 96946,1525 "
+         id="polyline5142" />
+      <polyline
+         vector-effect="none"
+         points="98945,1557 98996,1557 "
+         id="polyline5150" />
+      <polyline
+         vector-effect="none"
+         points="98945,1525 98996,1525 "
+         id="polyline5154" />
+      <polyline
+         vector-effect="none"
+         points="98945,1493 98996,1493 "
+         id="polyline5158" />
+      <polyline
+         vector-effect="none"
+         points="99021,1557 99072,1557 "
+         id="polyline5166" />
+      <polyline
+         vector-effect="none"
+         points="99021,1525 99072,1525 "
+         id="polyline5170" />
+      <polyline
+         vector-effect="none"
+         points="99021,1493 99072,1493 "
+         id="polyline5174" />
+      <polyline
+         vector-effect="none"
+         points="99319,1557 99370,1557 "
+         id="polyline5182" />
+      <polyline
+         vector-effect="none"
+         points="99319,1525 99370,1525 "
+         id="polyline5186" />
+      <polyline
+         vector-effect="none"
+         points="99319,1493 99370,1493 "
+         id="polyline5190" />
+      <polyline
+         vector-effect="none"
+         points="99599,1557 99650,1557 "
+         id="polyline5198" />
+      <polyline
+         vector-effect="none"
+         points="99599,1525 99650,1525 "
+         id="polyline5202" />
+      <polyline
+         vector-effect="none"
+         points="99599,1493 99650,1493 "
+         id="polyline5206" />
+      <polyline
+         vector-effect="none"
+         points="99740,1557 99791,1557 "
+         id="polyline5214" />
+      <polyline
+         vector-effect="none"
+         points="99740,1525 99791,1525 "
+         id="polyline5218" />
+      <polyline
+         vector-effect="none"
+         points="99740,1493 99791,1493 "
+         id="polyline5222" />
+      <polyline
+         vector-effect="none"
+         points="99816,1557 99867,1557 "
+         id="polyline5230" />
+      <polyline
+         vector-effect="none"
+         points="99816,1525 99867,1525 "
+         id="polyline5234" />
+      <polyline
+         vector-effect="none"
+         points="99892,1557 99943,1557 "
+         id="polyline5242" />
+      <polyline
+         vector-effect="none"
+         points="99892,1525 99943,1525 "
+         id="polyline5246" />
+      <polyline
+         vector-effect="none"
+         points="100032,1557 100083,1557 "
+         id="polyline5254" />
+      <polyline
+         vector-effect="none"
+         points="100032,1525 100083,1525 "
+         id="polyline5258" />
+      <polyline
+         vector-effect="none"
+         points="100108,1557 100159,1557 "
+         id="polyline5266" />
+      <polyline
+         vector-effect="none"
+         points="100108,1525 100159,1525 "
+         id="polyline5270" />
+      <polyline
+         vector-effect="none"
+         points="100338,1557 100389,1557 "
+         id="polyline5278" />
+      <polyline
+         vector-effect="none"
+         points="100338,1525 100389,1525 "
+         id="polyline5282" />
+      <polyline
+         vector-effect="none"
+         points="100478,1557 100529,1557 "
+         id="polyline5290" />
+      <polyline
+         vector-effect="none"
+         points="100478,1525 100529,1525 "
+         id="polyline5294" />
+      <polyline
+         vector-effect="none"
+         points="100618,1557 100669,1557 "
+         id="polyline5302" />
+      <polyline
+         vector-effect="none"
+         points="100618,1525 100669,1525 "
+         id="polyline5306" />
+      <polyline
+         vector-effect="none"
+         points="100694,1557 100745,1557 "
+         id="polyline5314" />
+      <polyline
+         vector-effect="none"
+         points="100694,1525 100745,1525 "
+         id="polyline5318" />
+      <polyline
+         vector-effect="none"
+         points="100770,1557 100821,1557 "
+         id="polyline5326" />
+      <polyline
+         vector-effect="none"
+         points="100770,1525 100821,1525 "
+         id="polyline5330" />
+      <polyline
+         vector-effect="none"
+         points="100985,1557 101036,1557 "
+         id="polyline5338" />
+      <polyline
+         vector-effect="none"
+         points="100985,1525 101036,1525 "
+         id="polyline5342" />
+      <polyline
+         vector-effect="none"
+         points="101199,1557 101250,1557 "
+         id="polyline5350" />
+      <polyline
+         vector-effect="none"
+         points="101199,1525 101250,1525 "
+         id="polyline5354" />
+      <polyline
+         vector-effect="none"
+         points="101555,1557 101606,1557 "
+         id="polyline5362" />
+      <polyline
+         vector-effect="none"
+         points="101555,1525 101606,1525 "
+         id="polyline5366" />
+      <polyline
+         vector-effect="none"
+         points="101695,1557 101746,1557 "
+         id="polyline5374" />
+      <polyline
+         vector-effect="none"
+         points="101695,1525 101746,1525 "
+         id="polyline5378" />
+      <polyline
+         vector-effect="none"
+         points="102052,1557 102103,1557 "
+         id="polyline5386" />
+      <polyline
+         vector-effect="none"
+         points="102052,1525 102103,1525 "
+         id="polyline5390" />
+      <polyline
+         vector-effect="none"
+         points="102128,1557 102179,1557 "
+         id="polyline5398" />
+      <polyline
+         vector-effect="none"
+         points="102128,1525 102179,1525 "
+         id="polyline5402" />
+      <polyline
+         vector-effect="none"
+         points="102478,1557 102529,1557 "
+         id="polyline5410" />
+      <polyline
+         vector-effect="none"
+         points="102478,1525 102529,1525 "
+         id="polyline5414" />
+      <polyline
+         vector-effect="none"
+         points="102554,1557 102605,1557 "
+         id="polyline5422" />
+      <polyline
+         vector-effect="none"
+         points="102554,1525 102605,1525 "
+         id="polyline5426" />
+      <polyline
+         vector-effect="none"
+         points="102630,1557 102681,1557 "
+         id="polyline5434" />
+      <polyline
+         vector-effect="none"
+         points="102630,1525 102681,1525 "
+         id="polyline5438" />
+      <polyline
+         vector-effect="none"
+         points="103103,1557 103154,1557 "
+         id="polyline5446" />
+      <polyline
+         vector-effect="none"
+         points="103103,1525 103154,1525 "
+         id="polyline5450" />
+      <polyline
+         vector-effect="none"
+         points="103179,1557 103230,1557 "
+         id="polyline5462" />
+      <polyline
+         vector-effect="none"
+         points="103179,1525 103230,1525 "
+         id="polyline5466" />
+      <polyline
+         vector-effect="none"
+         points="103603,1557 103654,1557 "
+         id="polyline5474" />
+      <polyline
+         vector-effect="none"
+         points="103817,1557 103868,1557 "
+         id="polyline5482" />
+      <polyline
+         vector-effect="none"
+         points="104098,1557 104149,1557 "
+         id="polyline5490" />
+      <polyline
+         vector-effect="none"
+         points="104238,1557 104289,1557 "
+         id="polyline5498" />
+      <polyline
+         vector-effect="none"
+         points="104518,1557 104569,1557 "
+         id="polyline5506" />
+      <polyline
+         vector-effect="none"
+         points="104734,1557 104785,1557 "
+         id="polyline5514" />
+      <polyline
+         vector-effect="none"
+         points="104830,1557 104881,1557 "
+         id="polyline5522" />
+      <polyline
+         vector-effect="none"
+         points="105110,1557 105161,1557 "
+         id="polyline5530" />
+      <polyline
+         vector-effect="none"
+         points="105250,1557 105301,1557 "
+         id="polyline5538" />
+      <polyline
+         vector-effect="none"
+         points="105449,1557 105500,1557 "
+         id="polyline5546" />
+      <polyline
+         vector-effect="none"
+         points="105449,1525 105500,1525 "
+         id="polyline5550" />
+      <polyline
+         vector-effect="none"
+         points="106508,1557 106559,1557 "
+         id="polyline5558" />
+      <polyline
+         vector-effect="none"
+         points="106508,1525 106559,1525 "
+         id="polyline5562" />
+      <polyline
+         vector-effect="none"
+         points="106508,1493 106559,1493 "
+         id="polyline5566" />
+      <polyline
+         vector-effect="none"
+         points="108400,1557 108451,1557 "
+         id="polyline5574" />
+      <polyline
+         vector-effect="none"
+         points="108400,1525 108451,1525 "
+         id="polyline5578" />
+      <polyline
+         vector-effect="none"
+         points="109011,1557 109062,1557 "
+         id="polyline5586" />
+      <polyline
+         vector-effect="none"
+         points="109152,1557 109203,1557 "
+         id="polyline5594" />
+      <polyline
+         vector-effect="none"
+         points="109292,1557 109343,1557 "
+         id="polyline5602" />
+      <polyline
+         vector-effect="none"
+         points="109292,1525 109343,1525 "
+         id="polyline5606" />
+      <polyline
+         vector-effect="none"
+         points="109292,1493 109343,1493 "
+         id="polyline5610" />
+      <polyline
+         vector-effect="none"
+         points="109368,1557 109419,1557 "
+         id="polyline5618" />
+      <polyline
+         vector-effect="none"
+         points="109368,1525 109419,1525 "
+         id="polyline5622" />
+      <polyline
+         vector-effect="none"
+         points="109368,1493 109419,1493 "
+         id="polyline5626" />
+      <polyline
+         vector-effect="none"
+         points="109616,1557 109667,1557 "
+         id="polyline5634" />
+      <polyline
+         vector-effect="none"
+         points="109924,1557 109975,1557 "
+         id="polyline5642" />
+      <polyline
+         vector-effect="none"
+         points="110236,1557 110287,1557 "
+         id="polyline5650" />
+      <polyline
+         vector-effect="none"
+         points="110236,1525 110287,1525 "
+         id="polyline5654" />
+      <polyline
+         vector-effect="none"
+         points="110236,1493 110287,1493 "
+         id="polyline5658" />
+      <polyline
+         vector-effect="none"
+         points="111683,1557 111734,1557 "
+         id="polyline5666" />
+      <polyline
+         vector-effect="none"
+         points="112252,1557 112303,1557 "
+         id="polyline5674" />
+      <polyline
+         vector-effect="none"
+         points="112466,1557 112517,1557 "
+         id="polyline5682" />
+      <polyline
+         vector-effect="none"
+         points="112466,1525 112517,1525 "
+         id="polyline5686" />
+      <polyline
+         vector-effect="none"
+         points="112466,1493 112517,1493 "
+         id="polyline5690" />
+      <polyline
+         vector-effect="none"
+         points="113143,1557 113194,1557 "
+         id="polyline5698" />
+      <polyline
+         vector-effect="none"
+         points="113143,1525 113194,1525 "
+         id="polyline5702" />
+      <polyline
+         vector-effect="none"
+         points="113143,1493 113194,1493 "
+         id="polyline5706" />
+      <polyline
+         vector-effect="none"
+         points="113339,1557 113390,1557 "
+         id="polyline5714" />
+      <polyline
+         vector-effect="none"
+         points="113479,1557 113530,1557 "
+         id="polyline5722" />
+      <polyline
+         vector-effect="none"
+         points="113479,1525 113530,1525 "
+         id="polyline5726" />
+      <polyline
+         vector-effect="none"
+         points="113479,1493 113530,1493 "
+         id="polyline5730" />
+      <polyline
+         vector-effect="none"
+         points="113555,1557 113606,1557 "
+         id="polyline5738" />
+      <polyline
+         vector-effect="none"
+         points="113555,1525 113606,1525 "
+         id="polyline5742" />
+      <polyline
+         vector-effect="none"
+         points="113555,1493 113606,1493 "
+         id="polyline5746" />
+      <polyline
+         vector-effect="none"
+         points="113903,1557 113954,1557 "
+         id="polyline5754" />
+      <polyline
+         vector-effect="none"
+         points="113903,1525 113954,1525 "
+         id="polyline5758" />
+      <polyline
+         vector-effect="none"
+         points="113903,1493 113954,1493 "
+         id="polyline5762" />
+      <polyline
+         vector-effect="none"
+         points="114001,1557 114052,1557 "
+         id="polyline5770" />
+      <polyline
+         vector-effect="none"
+         points="114001,1525 114052,1525 "
+         id="polyline5774" />
+      <polyline
+         vector-effect="none"
+         points="114001,1493 114052,1493 "
+         id="polyline5778" />
+      <polyline
+         vector-effect="none"
+         points="114782,1557 114833,1557 "
+         id="polyline5786" />
+      <polyline
+         vector-effect="none"
+         points="114782,1525 114833,1525 "
+         id="polyline5790" />
+      <polyline
+         vector-effect="none"
+         points="114782,1493 114833,1493 "
+         id="polyline5794" />
+      <polyline
+         vector-effect="none"
+         points="114860,1557 114911,1557 "
+         id="polyline5802" />
+      <polyline
+         vector-effect="none"
+         points="114860,1525 114911,1525 "
+         id="polyline5806" />
+      <polyline
+         vector-effect="none"
+         points="114860,1493 114911,1493 "
+         id="polyline5810" />
+      <polyline
+         vector-effect="none"
+         points="115197,1557 115248,1557 "
+         id="polyline5818" />
+      <polyline
+         vector-effect="none"
+         points="115197,1525 115248,1525 "
+         id="polyline5822" />
+      <polyline
+         vector-effect="none"
+         points="115197,1493 115248,1493 "
+         id="polyline5826" />
+      <polyline
+         vector-effect="none"
+         points="115505,1557 115556,1557 "
+         id="polyline5834" />
+      <polyline
+         vector-effect="none"
+         points="115505,1525 115556,1525 "
+         id="polyline5838" />
+      <polyline
+         vector-effect="none"
+         points="115505,1493 115556,1493 "
+         id="polyline5842" />
+      <polyline
+         vector-effect="none"
+         points="115785,1557 115836,1557 "
+         id="polyline5850" />
+      <polyline
+         vector-effect="none"
+         points="115861,1557 115912,1557 "
+         id="polyline5858" />
+      <polyline
+         vector-effect="none"
+         points="115861,1525 115912,1525 "
+         id="polyline5862" />
+      <polyline
+         vector-effect="none"
+         points="115861,1493 115912,1493 "
+         id="polyline5866" />
+      <polyline
+         vector-effect="none"
+         points="116137,1557 116188,1557 "
+         id="polyline5874" />
+      <polyline
+         vector-effect="none"
+         points="116532,1557 116583,1557 "
+         id="polyline5882" />
+      <polyline
+         vector-effect="none"
+         points="116532,1525 116583,1525 "
+         id="polyline5886" />
+      <polyline
+         vector-effect="none"
+         points="116532,1493 116583,1493 "
+         id="polyline5890" />
+      <polyline
+         vector-effect="none"
+         points="116608,1557 116659,1557 "
+         id="polyline5898" />
+      <polyline
+         vector-effect="none"
+         points="118985,1557 119036,1557 "
+         id="polyline5906" />
+      <polyline
+         vector-effect="none"
+         points="119061,1557 119112,1557 "
+         id="polyline5914" />
+      <polyline
+         vector-effect="none"
+         points="119445,1557 119496,1557 "
+         id="polyline5922" />
+      <polyline
+         vector-effect="none"
+         points="119738,1557 119789,1557 "
+         id="polyline5930" />
+      <polyline
+         vector-effect="none"
+         points="120158,1557 120209,1557 "
+         id="polyline5938" />
+      <polyline
+         vector-effect="none"
+         points="121140,1557 121191,1557 "
+         id="polyline5946" />
+      <polyline
+         vector-effect="none"
+         points="121420,1557 121471,1557 "
+         id="polyline5954" />
+      <polyline
+         vector-effect="none"
+         points="121634,1557 121685,1557 "
+         id="polyline5962" />
+      <polyline
+         vector-effect="none"
+         points="121850,1557 121901,1557 "
+         id="polyline5970" />
+      <polyline
+         vector-effect="none"
+         points="122866,1557 122917,1557 "
+         id="polyline5978" />
+      <polyline
+         vector-effect="none"
+         points="123146,1557 123197,1557 "
+         id="polyline5986" />
+      <polyline
+         vector-effect="none"
+         points="123426,1557 123477,1557 "
+         id="polyline5994" />
+      <polyline
+         vector-effect="none"
+         points="123566,1557 123617,1557 "
+         id="polyline6002" />
+      <polyline
+         vector-effect="none"
+         points="123987,1557 124038,1557 "
+         id="polyline6010" />
+      <polyline
+         vector-effect="none"
+         points="124201,1557 124252,1557 "
+         id="polyline6018" />
+      <polyline
+         vector-effect="none"
+         points="124417,1557 124468,1557 "
+         id="polyline6026" />
+      <polyline
+         vector-effect="none"
+         points="124632,1557 124683,1557 "
+         id="polyline6034" />
+      <polyline
+         vector-effect="none"
+         points="124846,1557 124897,1557 "
+         id="polyline6042" />
+      <polyline
+         vector-effect="none"
+         points="125448,1557 125499,1557 "
+         id="polyline6050" />
+      <polyline
+         vector-effect="none"
+         points="126687,1557 126738,1557 "
+         id="polyline6058" />
+      <polyline
+         vector-effect="none"
+         points="126845,1557 126896,1557 "
+         id="polyline6066" />
+      <polyline
+         vector-effect="none"
+         points="127061,1557 127112,1557 "
+         id="polyline6074" />
+      <polyline
+         vector-effect="none"
+         points="127416,1557 127467,1557 "
+         id="polyline6082" />
+      <polyline
+         vector-effect="none"
+         points="127492,1557 127543,1557 "
+         id="polyline6090" />
+      <polyline
+         vector-effect="none"
+         points="127568,1557 127619,1557 "
+         id="polyline6098" />
+      <polyline
+         vector-effect="none"
+         points="127848,1557 127899,1557 "
+         id="polyline6106" />
+      <polyline
+         vector-effect="none"
+         points="128409,1557 128460,1557 "
+         id="polyline6114" />
+      <polyline
+         vector-effect="none"
+         points="128970,1557 129021,1557 "
+         id="polyline6122" />
+      <polyline
+         vector-effect="none"
+         points="129985,1557 130036,1557 "
+         id="polyline6130" />
+      <polyline
+         vector-effect="none"
+         points="130125,1557 130176,1557 "
+         id="polyline6138" />
+      <polyline
+         vector-effect="none"
+         points="130686,1557 130737,1557 "
+         id="polyline6146" />
+      <polyline
+         vector-effect="none"
+         points="131247,1557 131298,1557 "
+         id="polyline6154" />
+      <polyline
+         vector-effect="none"
+         points="180324,1557 180375,1557 "
+         id="polyline6418" />
+      <polyline
+         vector-effect="none"
+         points="182062,1557 182113,1557 "
+         id="polyline6438" />
+      <polyline
+         vector-effect="none"
+         points="239389,1557 239440,1557 "
+         id="polyline6722" />
+      <polyline
+         vector-effect="none"
+         points="239530,1557 239581,1557 "
+         id="polyline6734" />
+      <polyline
+         vector-effect="none"
+         points="240651,1557 240702,1557 "
+         id="polyline6742" />
+      <polyline
+         vector-effect="none"
+         points="240932,1557 240983,1557 "
+         id="polyline6750" />
+      <polyline
+         vector-effect="none"
+         points="241264,1557 241315,1557 "
+         id="polyline6758" />
+      <polyline
+         vector-effect="none"
+         points="241825,1557 241876,1557 "
+         id="polyline6766" />
+      <polyline
+         vector-effect="none"
+         points="242105,1557 242156,1557 "
+         id="polyline6774" />
+      <polyline
+         vector-effect="none"
+         points="242245,1557 242296,1557 "
+         id="polyline6782" />
+      <polyline
+         vector-effect="none"
+         points="242385,1557 242436,1557 "
+         id="polyline6790" />
+      <polyline
+         vector-effect="none"
+         points="242742,1557 242793,1557 "
+         id="polyline6798" />
+      <polyline
+         vector-effect="none"
+         points="242956,1557 243007,1557 "
+         id="polyline6806" />
+      <polyline
+         vector-effect="none"
+         points="243517,1557 243568,1557 "
+         id="polyline6814" />
+      <polyline
+         vector-effect="none"
+         points="244077,1557 244128,1557 "
+         id="polyline6822" />
+      <polyline
+         vector-effect="none"
+         points="244358,1557 244409,1557 "
+         id="polyline6830" />
+      <polyline
+         vector-effect="none"
+         points="244638,1557 244689,1557 "
+         id="polyline6838" />
+      <polyline
+         vector-effect="none"
+         points="245059,1557 245110,1557 "
+         id="polyline6846" />
+      <polyline
+         vector-effect="none"
+         points="245199,1557 245250,1557 "
+         id="polyline6854" />
+      <polyline
+         vector-effect="none"
+         points="245695,1557 245746,1557 "
+         id="polyline6866"
+         transform="scale(0.5625)"
+         style="font-style:normal;font-weight:400;font-size:128px;font-family:'Opus Special Std';display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+      <polyline
+         vector-effect="none"
+         points="245771,1557 245822,1557 "
+         id="polyline6874" />
+      <polyline
+         vector-effect="none"
+         points="246052,1557 246103,1557 "
+         id="polyline6882" />
+      <polyline
+         vector-effect="none"
+         points="246332,1557 246383,1557 "
+         id="polyline6890" />
+      <polyline
+         vector-effect="none"
+         points="246613,1557 246664,1557 "
+         id="polyline6898" />
+      <polyline
+         vector-effect="none"
+         points="246893,1557 246944,1557 "
+         id="polyline6906" />
+      <polyline
+         vector-effect="none"
+         points="247173,1557 247224,1557 "
+         id="polyline6914" />
+      <polyline
+         vector-effect="none"
+         points="247734,1557 247785,1557 "
+         id="polyline6922" />
+      <polyline
+         vector-effect="none"
+         points="249136,1557 249187,1557 "
+         id="polyline6930" />
+      <polyline
+         vector-effect="none"
+         points="252500,1557 252551,1557 "
+         id="polyline6938" />
+      <polyline
+         vector-effect="none"
+         points="257921,1557 257972,1557 "
+         id="polyline6946" />
+      <polyline
+         vector-effect="none"
+         points="263197,1557 263248,1557 "
+         id="polyline6954" />
+      <polyline
+         vector-effect="none"
+         points="263478,1557 263529,1557 "
+         id="polyline6962" />
+      <polyline
+         vector-effect="none"
+         points="264899,1557 264950,1557 "
+         id="polyline6970" />
+      <polyline
+         vector-effect="none"
+         points="267702,1557 267753,1557 "
+         id="polyline6978" />
+      <polyline
+         vector-effect="none"
+         points="269481,1557 269532,1557 "
+         id="polyline6986" />
+      <polyline
+         vector-effect="none"
+         points="273985,1557 274036,1557 "
+         id="polyline6994" />
+      <polyline
+         vector-effect="none"
+         points="279664,1557 279715,1557 "
+         id="polyline7002" />
+      <polyline
+         vector-effect="none"
+         points="283625,1557 283676,1557 "
+         id="polyline7014" />
+      <polyline
+         vector-effect="none"
+         points="284765,1557 284816,1557 "
+         id="polyline7022" />
+      <polyline
+         vector-effect="none"
+         points="285326,1557 285377,1557 "
+         id="polyline7030" />
+      <polyline
+         vector-effect="none"
+         points="288718,1557 288769,1557 "
+         id="polyline7038" />
+      <polyline
+         vector-effect="none"
+         points="289279,1557 289330,1557 "
+         id="polyline7046" />
+      <polyline
+         vector-effect="none"
+         points="289870,1557 289921,1557 "
+         id="polyline7054" />
+      <polyline
+         vector-effect="none"
+         points="294128,1557 294179,1557 "
+         id="polyline7062" />
+      <polyline
+         vector-effect="none"
+         points="295530,1557 295581,1557 "
+         id="polyline7070" />
+      <polyline
+         vector-effect="none"
+         points="300039,1557 300090,1557 "
+         id="polyline7078" />
+      <polyline
+         vector-effect="none"
+         points="303303,1557 303354,1557 "
+         id="polyline7086" />
+      <polyline
+         vector-effect="none"
+         points="304078,1557 304129,1557 "
+         id="polyline7094" />
+      <polyline
+         vector-effect="none"
+         points="304863,1557 304914,1557 "
+         id="polyline7102" />
+      <polyline
+         vector-effect="none"
+         points="305725,1557 305776,1557 "
+         id="polyline7110" />
+      <polyline
+         vector-effect="none"
+         points="310024,1557 310075,1557 "
+         id="polyline7118" />
+      <polyline
+         vector-effect="none"
+         points="311997,1557 312048,1557 "
+         id="polyline7130" />
+      <polyline
+         vector-effect="none"
+         points="319320,1557 319371,1557 "
+         id="polyline7138" />
+      <polyline
+         vector-effect="none"
+         points="319320,1525 319371,1525 "
+         id="polyline7142" />
+      <polyline
+         vector-effect="none"
+         points="319601,1557 319652,1557 "
+         id="polyline7150" />
+      <polyline
+         vector-effect="none"
+         points="319601,1525 319652,1525 "
+         id="polyline7154" />
+      <polyline
+         vector-effect="none"
+         points="320161,1557 320212,1557 "
+         id="polyline7162" />
+      <polyline
+         vector-effect="none"
+         points="320161,1525 320212,1525 "
+         id="polyline7166" />
+      <polyline
+         vector-effect="none"
+         points="320722,1557 320773,1557 "
+         id="polyline7174" />
+      <polyline
+         vector-effect="none"
+         points="320722,1525 320773,1525 "
+         id="polyline7178" />
+      <polyline
+         vector-effect="none"
+         points="320936,1557 320987,1557 "
+         id="polyline7186" />
+      <polyline
+         vector-effect="none"
+         points="320936,1525 320987,1525 "
+         id="polyline7190" />
+      <polyline
+         vector-effect="none"
+         points="321592,1557 321643,1557 "
+         id="polyline7198" />
+      <polyline
+         vector-effect="none"
+         points="321592,1525 321643,1525 "
+         id="polyline7202" />
+      <polyline
+         vector-effect="none"
+         points="321872,1557 321923,1557 "
+         id="polyline7210" />
+      <polyline
+         vector-effect="none"
+         points="321872,1525 321923,1525 "
+         id="polyline7214" />
+      <polyline
+         vector-effect="none"
+         points="322153,1557 322204,1557 "
+         id="polyline7222" />
+      <polyline
+         vector-effect="none"
+         points="322153,1525 322204,1525 "
+         id="polyline7226" />
+      <polyline
+         vector-effect="none"
+         points="323068,1557 323119,1557 "
+         id="polyline7234" />
+      <polyline
+         vector-effect="none"
+         points="323068,1525 323119,1525 "
+         id="polyline7238" />
+      <polyline
+         vector-effect="none"
+         points="387391,1557 387442,1557 "
+         id="polyline7378" />
+      <polyline
+         vector-effect="none"
+         points="420568,1557 420619,1557 "
+         id="polyline7390" />
+      <polyline
+         vector-effect="none"
+         points="435205,1557 435256,1557 "
+         id="polyline7402" />
+      <polyline
+         vector-effect="none"
+         points="435205,1525 435256,1525 "
+         id="polyline7406" />
+      <polyline
+         vector-effect="none"
+         points="443897,1557 443948,1557 "
+         id="polyline7414" />
+      <polyline
+         vector-effect="none"
+         points="443897,1525 443948,1525 "
+         id="polyline7418" />
+      <polyline
+         vector-effect="none"
+         points="443897,1493 443948,1493 "
+         id="polyline7422" />
+      <polyline
+         vector-effect="none"
+         points="443973,1557 444024,1557 "
+         id="polyline7430" />
+      <polyline
+         vector-effect="none"
+         points="443973,1525 444024,1525 "
+         id="polyline7434" />
+      <polyline
+         vector-effect="none"
+         points="443973,1493 444024,1493 "
+         id="polyline7438" />
+      <polyline
+         vector-effect="none"
+         points="444235,1557 444286,1557 "
+         id="polyline7446" />
+      <polyline
+         vector-effect="none"
+         points="444235,1525 444286,1525 "
+         id="polyline7450" />
+      <polyline
+         vector-effect="none"
+         points="444235,1493 444286,1493 "
+         id="polyline7454" />
+      <polyline
+         vector-effect="none"
+         points="448581,1557 448632,1557 "
+         id="polyline7462" />
+      <polyline
+         vector-effect="none"
+         points="448581,1525 448632,1525 "
+         id="polyline7466" />
+      <polyline
+         vector-effect="none"
+         points="448581,1493 448632,1493 "
+         id="polyline7470" />
+      <polyline
+         vector-effect="none"
+         points="448721,1557 448772,1557 "
+         id="polyline7478" />
+      <polyline
+         vector-effect="none"
+         points="448721,1525 448772,1525 "
+         id="polyline7482" />
+      <polyline
+         vector-effect="none"
+         points="448721,1493 448772,1493 "
+         id="polyline7486" />
+      <polyline
+         vector-effect="none"
+         points="449142,1557 449193,1557 "
+         id="polyline7494" />
+      <polyline
+         vector-effect="none"
+         points="449142,1525 449193,1525 "
+         id="polyline7498" />
+      <polyline
+         vector-effect="none"
+         points="449142,1493 449193,1493 "
+         id="polyline7502" />
+      <polyline
+         vector-effect="none"
+         points="449282,1557 449333,1557 "
+         id="polyline7510" />
+      <polyline
+         vector-effect="none"
+         points="449282,1525 449333,1525 "
+         id="polyline7514" />
+      <polyline
+         vector-effect="none"
+         points="449282,1493 449333,1493 "
+         id="polyline7518" />
+      <polyline
+         vector-effect="none"
+         points="449842,1557 449893,1557 "
+         id="polyline7526" />
+      <polyline
+         vector-effect="none"
+         points="449842,1525 449893,1525 "
+         id="polyline7530" />
+      <polyline
+         vector-effect="none"
+         points="449842,1493 449893,1493 "
+         id="polyline7534" />
+      <polyline
+         vector-effect="none"
+         points="451525,1557 451576,1557 "
+         id="polyline7542" />
+      <polyline
+         vector-effect="none"
+         points="451525,1525 451576,1525 "
+         id="polyline7546" />
+      <polyline
+         vector-effect="none"
+         points="451525,1493 451576,1493 "
+         id="polyline7550" />
+      <polyline
+         vector-effect="none"
+         points="452085,1557 452136,1557 "
+         id="polyline7558" />
+      <polyline
+         vector-effect="none"
+         points="452085,1525 452136,1525 "
+         id="polyline7562" />
+      <polyline
+         vector-effect="none"
+         points="452085,1493 452136,1493 "
+         id="polyline7566" />
+      <polyline
+         vector-effect="none"
+         points="454328,1557 454379,1557 "
+         id="polyline7574" />
+      <polyline
+         vector-effect="none"
+         points="454328,1525 454379,1525 "
+         id="polyline7578" />
+      <polyline
+         vector-effect="none"
+         points="454328,1493 454379,1493 "
+         id="polyline7582" />
+      <polyline
+         vector-effect="none"
+         points="459375,1557 459426,1557 "
+         id="polyline7590" />
+      <polyline
+         vector-effect="none"
+         points="470590,1557 470641,1557 "
+         id="polyline7598" />
+      <polyline
+         vector-effect="none"
+         points="474515,1557 474566,1557 "
+         id="polyline7606" />
+    </g>
+    <g
+       id="Violin1PartStave">
+      <polyline
+         vector-effect="none"
+         points="511656,1589 511656,1717 "
+         id="polyline20"
+         transform="scale(0.5625)"
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+      <polyline
+         vector-effect="none"
+         points="372,1717 511698,1717 "
+         id="polyline676"
+         transform="scale(0.5625)"
+         style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+      <polyline
+         vector-effect="none"
+         points="372,1685 511698,1685 "
+         id="polyline680"
+         transform="scale(0.5625)"
+         style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+      <polyline
+         vector-effect="none"
+         points="372,1653 511698,1653 "
+         id="polyline684"
+         transform="scale(0.5625)"
+         style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+      <polyline
+         vector-effect="none"
+         points="372,1621 511698,1621 "
+         id="polyline688"
+         transform="scale(0.5625)"
+         style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+      <polyline
+         vector-effect="none"
+         points="372,1589 511698,1589 "
+         id="polyline692"
+         transform="scale(0.5625)"
+         style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:bevel;stroke-opacity:1" />
+    </g>
+    <path
+       id="path1308"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5625;stroke-linecap:square;stroke-linejoin:bevel"
+       d="m 264711.94,880.2405 h 20872.12 v -9 h -20872.12 v 9 m -6308.44,0 h 4729.5 v -9 h -4729.5 v 9 m -5362.31,-36 h 4611.37 v -9 h -4611.37 v 9 m -3344.06,0 H 252882 v -9 h -3184.87 v 9 m -4889.25,18 h 3310.31 v -9 h -3310.31 v 9 m -8233.32,9 h 8231.63 v -9 h -8231.63 v 9 m -18662.06,0 H 232767 v -9 h -14854.5 v 9 m -27518.62,27 h 3515.62 v -9 h -3515.62 v 9 m -473.07,0 h 313.88 v -9 h -313.88 v 9 m -3959.43,0 h 3918.37 v -9 h -3918.37 v 9 m -4230.57,-36 h 443.82 v -9 h -443.82 v 9 m -2108.25,0 h 1749.38 v -9 h -1749.38 v 9 m -4119.18,9 h 589.5 v -9 h -589.5 v 9 m -1109.82,0 h 240.75 v -9 h -240.75 v 9 m -2418.18,0 h 956.25 v -9 h -956.25 v 9 m -484.88,0 h 169.88 v -9 h -169.88 v 9 m -2713.5,0 h 2228.63 v -9 H 168777 v 9 m -3324.94,0 h 1418.07 v -9 h -1418.07 v 9 m -3043.12,0 h 970.31 v -9 h -970.31 v 9 m -2864.81,0 h 1901.25 v -9 h -1901.25 v 9 m -2228.07,0 h 885.94 v -9 h -885.94 v 9 m -3194.43,0 h 1615.5 v -9 h -1615.5 v 9 m -3534.19,0 h 1364.06 v -9 h -1364.06 v 9 m -1576.69,0 h 946.13 v -9 h -946.13 v 9 m -957.37,0 h 640.12 v -9 h -640.12 v 9 m -2967.75,0 h 1388.81 v -9 h -1388.81 v 9 m -3049.32,0 h 1901.82 v -9 h -1901.82 v 9 m -1892.25,0 h 157.5 v -9 h -157.5 v 9 m -788.62,0 h 157.5 v -9 h -157.5 v 9 m -2057.06,0 h 1897.87 v -9 h -1897.87 v 9 m -1927.13,0 h 1767.94 v -9 h -1767.94 v 9 m -709.87,0 h 235.12 v -9 h -235.12 v 9 m -1813.5,27 h 1733.06 v -9 h -1733.06 v 9 m -582.19,0 h 228.37 v -9 h -228.37 v 9 m -730.13,36 h 728.44 v -9 h -728.44 v 9 m -263.81,-36 h 104.06 v -9 h -104.06 v 9 m -209.81,36 h 208.12 v -9 h -208.12 v 9 m -1656,-36 h 1654.31 v -9 h -1654.31 v 9 m -78.75,36 h 78.75 v -9 h -78.75 v 9 m -275.63,-36 h 273.94 v -9 h -273.94 v 9 m -118.68,36 h 117 v -9 h -117 v 9 m -315,-36 h 313.31 v -9 h -313.31 v 9 m -236.82,36 h 235.13 v -9 h -235.13 v 9 m -473.06,0 h 353.25 v -9 H 127908 v 9 m -473.06,-36 h 471.37 v -9 h -471.37 v 9 m -158.06,36 h 156.37 v -9 h -156.37 v 9 m -1123.32,0 h 1042.88 v -9 h -1042.88 v 9 m -1497.93,-9 h 1496.25 v -9 h -1496.25 v 9 m -79.32,-27 h 79.32 v -9 h -79.32 v 9 m -630.56,0 h 313.88 v -9 h -313.88 v 9 m -1349.44,0 h 401.63 v -9 h -401.63 v 9 m -630.56,0 h 392.63 v -9 h -392.63 v 9 m -19550.81,-18 h 16542 v -9 h -16542 v 9 m -158.06,18 h 79.31 v -9 h -79.31 v 9 m -367.88,0.072 h 208.69 v -9 H 101889 v 9 m -451.69,-18.072 h 344.82 v -9 h -344.82 v 9 m -473.62,18 h 471.94 v -9 h -471.94 v 9 m -236.25,0 h 78.75 v -9 h -78.75 v 9 m -1197.003,-9 h 946.123 v -9 h -946.123 v 9 m -236.812,9 h 236.812 v -9 h -236.812 v 9 m -1323.563,0 h 162 v -9 h -162 v 9 m -725.625,63 h 158.063 v -9 h -158.063 v 9 m -631.687,0 h 183.937 v -9 h -183.937 v 9 m -774.563,9 h 693.563 v -9 h -693.563 v 9 m -473.062,0 H 95679 v -9 h -313.875 v 9 m -536.063,-9 h 376.313 v -9 h -376.313 v 9 m -1074.375,0 h 426.375 v -9 h -426.375 v 9 m -6626.25,9 h 6072.75 v -9 h -6072.75 v 9 m -631.125,0 h 158.063 v -9 h -158.063 v 9 m -354.375,0 h 195.188 v -9 h -195.188 v 9 m -443.812,-9 h 442.125 v -9 h -442.125 v 9 m -158.063,9 h 158.063 v -9 h -158.063 v 9 m -630.562,-36 h 630.562 v -9 H 84910.5 v 9 m -400.5,27 h 398.812 v -9 H 84510 v 9 m -560.25,-27 h 558.562 v -9 h -558.562 v 9 m -613.688,27 h 612 v -9 h -612 v 9 m -1015.312,-27 h 313.312 v -9 h -313.312 v 9 m -229.5,0 h 186.187 v -9 h -186.187 v 9 m -726.188,0 H 81810 v -9 h -444.938 v 9 m -734.062,27 h 212.062 v -9 H 80631 v 9 m -446.625,0 h 316.687 v -9 h -316.687 v 9 m -524.25,0 h 393.75 v -9 h -393.75 v 9 m -5198.063,-63 h 2679.75 v -9 h -2679.75 v 9 m -7527.937,-18 h 7210.687 v -9 h -7210.687 v 9 m -1337.063,0 h 1256.625 v -9 h -1256.625 v 9 m -42.75,-36 h 42.75 v -9 h -42.75 v 9 m -222.187,36 h 220.5 v -9 h -220.5 v 9 m -155.25,-36 h 155.25 v -9 h -155.25 v 9 m -30.138,35.94197 30.138,-35.94197 v -9 l -30.138,35.94197 v 9 M 63837,844.2405 h 1295.438 v -9 H 63837 v 9 m -78.75,36.072 h 78.75 v -9 h -78.75 v 9 m -491.062,-36.072 H 63756 v -9 h -488.812 v 9 m -440.438,36 h 438.75 v -9 h -438.75 v 9 m -813.937,-36 h 565.312 v -9 h -565.312 v 9 m -348.75,36 h 347.062 v -9 h -347.062 v 9 m -182.25,-36 h 180.562 v -9 h -180.562 v 9 m -158.063,36 h 156.375 v -9 h -156.375 v 9 m -343.687,-27 h 342 v -9 h -342 v 9 m -1064.813,-9 h 1063.125 v -9 H 59915.25 v 9 m -330.187,9 330.187,-9 v -9 l -330.187,9 v 9 m -264.938,0 h 264.938 v -9 h -264.938 v 9 m -1038.375,27 h 977.625 v -9 h -977.625 v 9 m -281.25,-27 h 80.438 v -9 h -80.438 v 9 m -351.562,0 h 243.562 v -9 h -243.562 v 9 m -1203.75,0 h 1044.562 v -9 h -1044.562 v 9 m -293.625,0 h 213.187 v -9 h -213.187 v 9 m -489.938,-9 h 488.25 v -9 h -488.25 v 9 m -1153.125,9 h 1109.813 v -9 H 54508.5 v 9 m -845.437,-9 h 843.187 v -9 h -843.187 v 9 m -662.063,9 h 660.375 v -9 H 53001 v 9 m -1649.812,0 h 1490.062 v -9 h -1490.062 v 9 m -70.313,-9 70.313,9 v -9 l -70.313,-9 v 9 m -1618.312,0 h 1618.312 v -9 h -1618.312 v 9 m -2352.938,9 h 2351.25 v -9 h -2351.25 v 9 m -1946.25,-9 h 1944.563 v -9 h -1944.563 v 9 m -873,9 h 871.313 v -9 h -871.313 v 9 m -84.375,-9 94.5,10.125 v -9 l -94.5,-10.125 v 9 m -710.437,0 H 44406 v -9 h -710.437 v 9 m -3821.625,9 h 3819.937 v -9 h -3819.937 v 9 m -877.5,-9 h 797.062 v -9 h -797.062 v 9 m -2872.125,9 h 2870.437 v -9 h -2870.437 v 9 m -9821.813,-9 h 9820.125 v -9 H 26302.5 v 9 m -4731.75,0 H 26064 v -9 h -4493.25 v 9 m -3205.125,108 h 1547.437 v -9 h -1547.437 v 9 m -1587.375,-81 h 1191.375 v -9 H 16778.25 v 9 m -788.625,0 h 721.687 v -9 h -721.687 v 9 m -473.062,-27 h 471.375 v -9 h -471.375 v 9 m -2838.938,27 h 1181.25 v -9 h -1181.25 v 9 m -2050.312,90 h 432 v -9 h -432 v 9 m -2681.438,0 h 1496.8125 v -9 H 7945.875 v 9 m -1103.625,0 h 807.1875 v -9 H 6842.25 v 9 m -1721.8125,0 H 6692.625 v -9 H 5120.4375 v 9 m -1905.75,0 h 1831.5 v -9 h -1831.5 v 9 M 235574.07,774.36952 l -4.56,19.62225 1.48,0.38475 c 2.5,-1.98788 4.87,-2.8215 7.89,-2.8215 6.09,0 10.51,4.29637 10.51,10.38825 0,6.79725 -6.02,12.24787 -13.46,12.24787 -1.8,0 -3.66,-0.2565 -6.09,-0.7695 l -0.97,2.18025 c 2.7,0.89775 5.65,1.34663 8.53,1.34663 10.45,0 18.21,-6.73313 18.21,-15.903 0,-8.27213 -6.47,-14.68463 -14.81,-14.68463 -2.44,0 -4.49,0.513 -7.44,1.73138 l 1.93,-8.52863 h 19.23 l 1.22,-5.96362 h -2.18 c -0.51,0.64125 -1.15,0.7695 -3.72,0.7695 z m -39.49,21.16125 h 1.86 c 2.89,0 3.59,0.70537 5.13,2.62912 l 8.53,10.64475 c 4.81,5.96363 6.73,7.37438 11.35,7.37438 h 5.13 v -2.43675 c -2.5,0 -5.77,-3.078 -10.64,-8.59275 l -9.17,-10.45238 c 8.65,-1.41075 11.92,-6.28425 11.92,-10.96537 0,-6.22013 -4.36,-11.286 -16.35,-11.286 h -20.97 v 2.43675 c 4.49,0 6.48,2.052 6.48,6.28425 v 25.20112 c 0,4.29638 -0.83,7.37438 -6.48,7.37438 v 2.43675 h 19.95 v -2.43675 c -4.81,0 -6.74,-1.98788 -6.74,-6.02775 z m 0,-2.75738 v -17.57025 h 5 c 7.89,0 11.35,4.42463 11.35,9.29813 0,5.13 -3.14,8.27212 -10.32,8.27212 z m -52647.46,10.85126 h 5.65 l 0.96,-7.24612 h -2.18 c -0.96,3.14212 -1.86,4.104 -4.43,4.104 v -27.4455 h -5.13 l -18.46,26.86837 v 3.71925 h 17.57 v 4.48875 c 0,3.65513 -1.41,5.19413 -5.77,5.19413 v 2.3085 h 17.44 v -2.3085 c -4.04,0 -5.65,-1.34663 -5.65,-5.06588 z m -6.02,-3.14212 h -14.94 l 14.81,-21.86663 h 0.13 z m -50.52,-5.51475 h 1.86 c 2.89,0 3.59,0.70537 5.13,2.62912 l 8.53,10.64475 c 4.81,5.96363 6.73,7.37438 11.35,7.37438 h 5.13 v -2.43675 c -2.5,0 -5.77,-3.078 -10.64,-8.59275 l -9.17,-10.45238 c 8.65,-1.41075 11.92,-6.28425 11.92,-10.96537 0,-6.22013 -4.36,-11.286 -16.35,-11.286 h -20.97 v 2.43675 c 4.49,0 6.48,2.052 6.48,6.28425 v 25.20112 c 0,4.29638 -0.83,7.37438 -6.48,7.37438 v 2.43675 h 19.95 v -2.43675 c -4.81,0 -6.74,-1.98788 -6.74,-6.02775 z m 0,-2.75738 v -17.57025 h 5 c 7.89,0 11.35,4.42463 11.35,9.29813 0,5.13 -3.14,8.27212 -10.32,8.27212 z m -48884.2,11.7225 c 2.37,-1.60312 4.61,-2.43675 6.6,-2.43675 4.17,0 7.38,3.39863 7.38,8.14388 0,6.73312 -6.03,11.86312 -13.34,11.86312 -2.7,0 -4.81,-0.513 -7.89,-1.98787 l -1.28,1.85962 c 2.31,1.73138 6.41,2.88563 10.19,2.88563 9.94,0 18.34,-7.56675 18.34,-16.09538 0,-5.51475 -4.36,-10.96537 -10.51,-10.06762 l -0.13,-0.12825 c 5.45,-3.591 7.56,-6.156 7.56,-9.42638 0,-4.48875 -4.1,-7.63087 -9.74,-7.63087 -5.71,0 -10.33,3.14212 -14.75,9.10575 l 1.79,1.41075 c 3.79,-4.23225 7.64,-6.47663 11.1,-6.47663 3.2,0 5.58,2.37263 5.58,5.32238 0,4.16812 -3.91,7.05375 -11.93,11.5425 z m -41.8,-1.09012 h 1.86 c 2.89,0 3.59,0.70537 5.13,2.62912 l 8.53,10.64475 c 4.81,5.96363 6.73,7.37438 11.35,7.37438 h 5.13 v -2.43675 c -2.5,0 -5.77,-3.078 -10.64,-8.59275 l -9.17,-10.45238 c 8.65,-1.41075 11.92,-6.28425 11.92,-10.96537 0,-6.22013 -4.36,-11.286 -16.35,-11.286 h -20.97 v 2.43675 c 4.49,0 6.48,2.052 6.48,6.28425 v 25.20112 c 0,4.29638 -0.83,7.37438 -6.48,7.37438 v 2.43675 h 19.95 v -2.43675 c -4.81,0 -6.74,-1.98788 -6.74,-6.02775 z m 0,-2.75738 v -17.57025 h 5 c 7.89,0 11.35,4.42463 11.35,9.29813 0,5.13 -3.14,8.27212 -10.32,8.27212 z m -60184.273,0.45 h -2.244 c -1.796,4.23225 -3.399,5.3865 -7.503,5.3865 h -13.466 c 9.362,-11.35012 21.29,-14.877 21.29,-25.45762 0,-6.60488 -5.259,-11.92725 -11.928,-11.92725 -6.605,0 -11.991,4.80937 -15.069,13.40212 l 2.373,0.96188 c 2.629,-6.22013 6.604,-9.747 11.093,-9.747 4.104,0 7.503,3.8475 7.503,8.52862 0,7.82325 -9.427,14.1075 -21.226,27.12488 v 2.3085 h 26.035 z m -62.826,-10.06762 h 1.859 c 2.886,0 3.591,0.70537 5.13,2.62912 l 8.529,10.64475 c 4.809,5.96363 6.733,7.37438 11.35,7.37438 h 5.13 v -2.43675 c -2.501,0 -5.771,-3.078 -10.645,-8.59275 l -9.169,-10.45238 c 8.656,-1.41075 11.927,-6.28425 11.927,-10.96537 0,-6.22013 -4.361,-11.286 -16.352,-11.286 h -20.969 v 2.43675 c 4.489,0 6.477,2.052 6.477,6.28425 v 25.20112 c 0,4.29638 -0.834,7.37438 -6.477,7.37438 v 2.43675 h 19.943 v -2.43675 c -4.809,0 -6.733,-1.98788 -6.733,-6.02775 z m 0,-2.75738 v -17.57025 h 5.002 c 7.887,0 11.35,4.42463 11.35,9.29813 0,5.13 -3.142,8.27212 -10.324,8.27212 z M 31230.658,725.22502 h -1.859 c -3.142,2.43675 -5.772,3.27037 -10.324,3.27037 v 2.3085 h 1.09 c 3.719,0 5.066,1.7955 5.066,5.25825 v 23.598 c 0,3.91163 -1.668,5.83538 -5.323,5.83538 h -1.026 v 2.3085 h 18.212 v -2.3085 h -0.642 c -3.783,0 -5.194,-2.11613 -5.194,-6.02775 z m -51.476,21.93075 h 1.86 c 2.885,0 3.591,0.70537 5.13,2.62912 l 8.528,10.64475 c 4.81,5.96363 6.733,7.37438 11.35,7.37438 h 5.13 v -2.43675 c -2.501,0 -5.771,-3.078 -10.644,-8.59275 l -9.17,-10.45238 c 8.657,-1.41075 11.927,-6.28425 11.927,-10.96537 0,-6.22013 -4.361,-11.286 -16.352,-11.286 h -20.969 v 2.43675 c 4.489,0 6.477,2.052 6.477,6.28425 v 25.20112 c 0,4.29638 -0.834,7.37438 -6.477,7.37438 v 2.43675 h 19.943 v -2.43675 c -4.809,0 -6.733,-1.98788 -6.733,-6.02775 z m 0,-2.75738 v -17.57025 h 5.002 c 7.887,0 11.35,4.42463 11.35,9.29813 0,5.13 -3.142,8.27212 -10.324,8.27212 z M 260.406,963.5805 l 2.736,13.32 c 0.144,0.792 0.216,1.512 0.216,2.232 0,7.056 -7.2,12.96 -14.976,12.96 -2.376,0 -4.68,-0.576 -6.84,-1.656 5.544,-0.576 9.72,-3.96 9.72,-8.928 0,-4.392 -3.6,-9 -8.208,-9 -5.256,0 -8.856,4.032 -8.856,9.288 0,7.344 5.976,12.168 13.176,12.168 9.648,0 17.856,-6.264 17.856,-15.264 0,-2.016 -3.168,-16.272 -3.096,-15.768 7.704,-3.744 12.96,-10.368 12.96,-17.352 0,-9.576 -7.704,-16.92 -17.28,-16.92 -0.144,0 -1.152,0.072 -2.88,0.216 l -3.168,-15.192 c 10.728,-9.072 15.624,-18.72 15.624,-29.304 0,-8.136 -3.24,-16.776 -9.792,-25.848 -7.416,5.976 -11.664,17.928 -11.664,30.672 0,4.536 0.576,8.928 1.584,13.104 -16.416,13.752 -24.624,26.424 -24.624,38.016 0,13.608 14.04,24.912 29.304,24.912 3.384,0 5.904,-0.504 8.208,-1.656 z m -0.216,-94.608 c 2.376,2.448 3.6,5.328 3.6,8.712 0,6.984 -4.968,14.832 -14.688,23.472 -0.504,-2.088 -0.648,-4.392 -0.648,-6.912 0,-12.096 4.464,-25.416 10.44,-25.416 0.504,0 0.936,0.072 1.296,0.144 z m 1.512,91.656 -5.112,-24.048 c 1.008,-0.072 1.584,-0.144 1.8,-0.144 6.192,0 10.512,5.832 10.512,11.808 0,4.752 -2.52,8.928 -7.2,12.384 z m -6.912,-23.76 5.184,24.768 c -2.52,1.368 -5.328,1.944 -8.712,1.944 -11.664,0 -21.744,-8.712 -21.744,-19.296 0,-9.576 7.128,-19.44 20.592,-29.52 l 3.024,14.4 c -7.488,1.584 -13.824,7.92 -13.824,15.048 0,6.048 4.32,10.296 10.8,11.304 -3.96,-2.448 -5.904,-5.544 -5.904,-9.216 0,-4.968 4.608,-8.64 10.584,-9.432 z m 137705.09,-73.512 c -1.73,0 -3.32,1.512 -3.32,3.456 0,1.656 1.66,3.24 3.32,3.24 1.94,0 3.45,-1.584 3.45,-3.24 0,-1.944 -1.51,-3.456 -3.45,-3.456 z m 128978.16,12.384 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -2207.81,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -6308.44,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -2838.94,-36 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -1261.69,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -315,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -946.68,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -236.82,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -2444.62,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -147.38,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -42.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -4889.25,18 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -8233.31,9 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -18662.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -24119.44,27 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -197.44,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -276.18,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -462.94,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -630.57,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -649.68,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315.57,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -315.56,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -394.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -118.13,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -197.44,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -709.87,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -647.44,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315.56,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -39.38,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -118.12,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -79.32,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -236.25,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -4230.56,-36 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -514.69,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -158.06,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -369,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -120.37,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315.57,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -315,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -158.06,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -4119.19,9 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -1109.81,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -2418.19,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -484.87,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -441.56,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -435.94,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -1836,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -2536.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -788.63,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -2395.12,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -332.44,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315.56,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -1908,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315.57,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -641.25,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -2228.06,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -3194.44,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -2533.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -1000.68,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -1576.69,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -799.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.07,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -2967.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -3049.31,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -1892.25,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -788.62,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -315.57,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -158.06,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -158.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -42.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -279,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -236.81,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.07,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -315,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -315.56,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -120.37,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -200.82,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -315.56,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -186.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -158.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -630.56,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -79.32,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,27 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -118.12,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -197.44,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -158.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -118.13,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -118.12,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -79.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -104.07,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -110.81,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -100.69,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -388.12,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -36.56,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -118.13,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -39.37,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -730.13,36 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -211.5,-36 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -52.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -51.75,36 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,-36 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -39.38,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -118.12,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.06,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -101.82,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -55.68,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -157.5,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -236.82,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.75,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -39.37,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -118.69,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -79.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,36 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -236.25,-36 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -39.38,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -118.68,36 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.76,-36 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.74,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -78.76,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.74,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -236.82,36 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -473.06,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,-36 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -79.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -236.25,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.06,36 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -1123.32,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -1497.94,-9 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -79.31,-27 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -394.31,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -157.5,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -1349.44,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -551.81,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -19550.81,-18 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -158.06,18 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -262.69,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -105.19,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -451.69,-18 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -158.06,18 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -78.75,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.88,-2.736 -6.4,-2.736 -2.52,0 -4.76,0.936 -6.56,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.04,2.736 6.56,2.736 2.52,0 4.6,-0.936 6.4,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -118.12,0 c 0,-2.52 -0.86,-4.608 -2.66,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.67,3.888 -2.67,6.408 0,2.52 0.87,4.608 2.67,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.66,-3.888 2.66,-6.408 z m -118.69,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -236.25,0 c 0,-2.52 -0.87,-4.608 -2.67,-6.408 -1.8,-1.8 -3.89,-2.736 -6.41,-2.736 -2.52,0 -4.75,0.936 -6.55,2.736 -1.8,1.8 -2.66,3.888 -2.66,6.408 0,2.52 0.86,4.608 2.66,6.408 1.8,1.8 4.03,2.736 6.55,2.736 2.52,0 4.61,-0.936 6.41,-2.736 1.8,-1.8 2.67,-3.888 2.67,-6.408 z m -1197.005,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -236.812,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1283.063,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -40.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -725.625,63 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -631.687,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -252,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -254.813,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -110.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -158.062,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -267.75,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -110.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -158.063,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1074.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -6626.25,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -631.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -354.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -365.062,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -158.063,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -630.562,-36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -201.375,27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -199.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -118.125,-27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -118.688,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -165.937,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -118.688,27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -128.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -121.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -124.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -242.437,-27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -497.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -118.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.188,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -36,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -75.937,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -39.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -236.813,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -84.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -247.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -105.187,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -52.313,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -79.312,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -178.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -304.875,27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -171,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -207,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -82.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -524.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -5198.063,-63 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -630.562,-18 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315.563,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315.562,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -570.938,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315.562,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315.563,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -199.687,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -121.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -88.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -696.938,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -338.625,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.937,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -121.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -236.813,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -571.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -121.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -552.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -236.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -164.812,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -216,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1337.063,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,-36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.751,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.801,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -222.187,36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -155.25,-36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,-36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -173.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -189.562,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -43.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -439.313,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -55.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -195.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -110.25,-36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -380.812,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -320.063,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -813.937,-36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -175.5,36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -173.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -139.5,-36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,36 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -79.313,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -343.687,-27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1064.25,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -595.688,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -111.937,27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -54,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -121.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -158.063,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -238.5,-27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -266.062,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -196.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -200.813,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -200.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.937,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -129.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -79.313,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -167.625,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1153.125,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -274.5,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -236.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -334.687,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -662.063,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -194.625,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -44.437,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -121.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315.563,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -338.625,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -635.062,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1688.625,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -210.938,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -109.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -120.375,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -158.062,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -63.563,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -63,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -61.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -56.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -386.437,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -85.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -42.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -88.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -362.813,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -142.875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1946.25,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -242.437,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -551.813,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -794.812,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1511.438,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1632.937,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -440.438,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -236.812,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -877.5,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1452.938,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -631.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -236.25,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -394.312,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.889,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.553,2.736 -1.799,1.8 -2.663,3.888 -2.663,6.408 0,2.52 0.864,4.608 2.663,6.408 1.801,1.8 4.033,2.736 6.553,2.736 2.519,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -9345.376,-9 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -476.437,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -4731.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1734.75,108 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -829.688,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -118.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -49.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -473.062,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1587.375,-81 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -394.312,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -78.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -158.063,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -157.5,-27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315.563,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -2838.937,27 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -2050.313,90 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1261.687,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1419.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -315,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -788.625,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -1734.75,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -946.6875,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m -946.125,0 c 0,-2.52 -0.864,-4.608 -2.664,-6.408 -1.8,-1.8 -3.888,-2.736 -6.408,-2.736 -2.52,0 -4.752,0.936 -6.552,2.736 -1.8,1.8 -2.664,3.888 -2.664,6.408 0,2.52 0.864,4.608 2.664,6.408 1.8,1.8 4.032,2.736 6.552,2.736 2.52,0 4.608,-0.936 6.408,-2.736 1.8,-1.8 2.664,-3.888 2.664,-6.408 z m 128297.4045,-2.376 v -38.664 l -11.02,3.888 v -14.472 h -1.8 v 38.664 l 11.02,-3.816 v 14.4 z m -11.02,-28.944 9.22,-3.384 v 12.096 l -9.22,3.312 z m -4247.66,28.944 v -38.664 l -11.02,3.888 v -14.472 h -1.8 v 38.664 l 11.02,-3.816 v 14.4 z m -11.02,-28.944 9.22,-3.384 v 12.096 l -9.22,3.312 z m 109289.7,-45.432 10.15,-7.488 c 4.46,-3.24 6.19,-6.912 6.33,-9.648 0,-4.032 -3.67,-7.056 -7.99,-7.056 -3.02,0 -5.26,1.152 -6.7,3.528 l 0.51,-22.68 h -2.3 z m 6.69,-21.312 c 2.31,0 4.03,1.656 4.03,3.888 0,3.744 -4.96,10.944 -8.71,13.32 -0.22,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.14,-4.32 0.43,-7.056 1.08,-2.016 2.59,-3.024 4.61,-3.024 z m -18668.76,21.312 10.15,-7.488 c 4.47,-3.24 6.2,-6.912 6.34,-9.648 0,-4.032 -3.67,-7.056 -7.99,-7.056 -3.03,0 -5.26,1.152 -6.7,3.528 l 0.51,-22.68 h -2.31 z m 6.7,-21.312 c 2.3,0 4.03,1.656 4.03,3.888 0,3.744 -4.97,10.944 -8.71,13.32 -0.22,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.14,-4.32 0.43,-7.056 1.08,-2.016 2.59,-3.024 4.61,-3.024 z m -43525.63,21.312 10.15,-7.488 c 4.46,-3.24 6.19,-6.912 6.33,-9.648 0,-4.032 -3.67,-7.056 -7.99,-7.056 -3.02,0 -5.26,1.152 -6.7,3.528 l 0.51,-22.68 h -2.3 z m 6.69,-21.312 c 2.31,0 4.03,1.656 4.03,3.888 0,3.744 -4.96,10.944 -8.71,13.32 -0.22,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.14,-4.32 0.43,-7.056 1.08,-2.016 2.59,-3.024 4.61,-3.024 z m -17084.19,21.312 10.15,-7.488 c 4.46,-3.24 6.19,-6.912 6.33,-9.648 0,-4.032 -3.67,-7.056 -7.99,-7.056 -3.02,0 -5.26,1.152 -6.7,3.528 l 0.51,-22.68 h -2.3 z m 6.69,-21.312 c 2.31,0 4.03,1.656 4.03,3.888 0,3.744 -4.96,10.944 -8.71,13.32 -0.22,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.14,-4.32 0.43,-7.056 1.08,-2.016 2.59,-3.024 4.61,-3.024 z m -22661.38,21.312 10.15,-7.488 c 4.46,-3.24 6.19,-6.912 6.34,-9.648 0,-4.032 -3.68,-7.056 -8,-7.056 -3.02,0 -5.25,1.152 -6.69,3.528 l 0.5,-22.68 h -2.3 z m 6.69,-21.312 c 2.31,0 4.04,1.656 4.04,3.888 0,3.744 -4.97,10.944 -8.72,13.32 -0.21,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.15,-4.32 0.44,-7.056 1.08,-2.016 2.59,-3.024 4.6,-3.024 z m -3603.32,84.312 10.15,-7.488 c 4.47,-3.24 6.2,-6.912 6.34,-9.648 0,-4.032 -3.67,-7.056 -7.99,-7.056 -3.03,0 -5.26,1.152 -6.7,3.528 l 0.51,-22.68 h -2.31 z m 6.7,-21.312 c 2.3,0 4.03,1.656 4.03,3.888 0,3.744 -4.97,10.944 -8.71,13.32 -0.22,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.14,-4.32 0.43,-7.056 1.08,-2.016 2.59,-3.024 4.61,-3.024 z m -4915.07,21.312 10.15,-7.488 c 4.46,-3.24 6.19,-6.912 6.34,-9.648 0,-4.032 -3.68,-7.056 -8,-7.056 -3.02,0 -5.25,1.152 -6.69,3.528 l 0.5,-22.68 h -2.3 z m 6.69,-21.312 c 2.31,0 4.04,1.656 4.04,3.888 0,3.744 -4.97,10.944 -8.72,13.32 -0.21,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.15,-4.32 0.44,-7.056 1.08,-2.016 2.59,-3.024 4.6,-3.024 z m -1504.63,12.312 10.15,-7.488 c 4.47,-3.24 6.19,-6.912 6.34,-9.648 0,-4.032 -3.67,-7.056 -7.99,-7.056 -3.03,0 -5.26,1.152 -6.7,3.528 l 0.5,-22.68 h -2.3 z m 6.7,-21.312 c 2.3,0 4.03,1.656 4.03,3.888 0,3.744 -4.97,10.944 -8.71,13.32 -0.22,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.14,-4.32 0.43,-7.056 1.08,-2.016 2.59,-3.024 4.61,-3.024 z m -25131.888,-14.688 10.152,-7.488 c 4.464,-3.24 6.192,-6.912 6.336,-9.648 0,-4.032 -3.671,-7.056 -7.992,-7.056 -3.024,0 -5.256,1.152 -6.696,3.528 l 0.504,-22.68 h -2.304 z m 6.696,-21.312 c 2.304,0 4.032,1.656 4.032,3.888 0,3.744 -4.968,10.944 -8.712,13.32 -0.216,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.144,-4.32 0.432,-7.056 1.08,-2.016 2.592,-3.024 4.608,-3.024 z m -4172.008,102.312 10.152,-7.488 c 4.464,-3.24 6.192,-6.912 6.336,-9.648 0,-4.032 -3.672,-7.056 -7.992,-7.056 -3.024,0 -5.256,1.152 -6.696,3.528 l 0.504,-22.68 h -2.304 z m 6.696,-21.312 c 2.304,0 4.032,1.656 4.032,3.888 0,3.744 -4.968,10.944 -8.712,13.32 -0.216,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.144,-4.32 0.432,-7.056 1.08,-2.016 2.592,-3.024 4.608,-3.024 z m -14264.946,-14.688 10.152,-7.488 c 4.464,-3.24 6.192,-6.912 6.336,-9.648 0,-4.032 -3.672,-7.056 -7.992,-7.056 -3.024,0 -5.256,1.152 -6.696,3.528 l 0.504,-22.68 h -2.304 z m 6.696,-21.312 c 2.304,0 4.032,1.656 4.032,3.888 0,3.744 -4.968,10.944 -8.712,13.32 -0.216,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.144,-4.32 0.432,-7.056 1.08,-2.016 2.592,-3.024 4.608,-3.024 z m -23115.883,-59.688 10.152,-7.488 c 4.464,-3.24 6.191,-6.912 6.335,-9.648 0,-4.032 -3.671,-7.056 -7.991,-7.056 -3.024,0 -5.257,1.152 -6.696,3.528 l 0.503,-22.68 h -2.303 z m 6.696,-21.312 c 2.304,0 4.032,1.656 4.032,3.888 0,3.744 -4.968,10.944 -8.712,13.32 -0.216,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.144,-4.32 0.432,-7.056 1.079,-2.016 2.592,-3.024 4.608,-3.024 z m -21882.884,21.312 10.152,-7.488 c 4.464,-3.24 6.192,-6.912 6.336,-9.648 0,-4.032 -3.672,-7.056 -7.992,-7.056 -3.024,0 -5.256,1.152 -6.696,3.528 l 0.504,-22.68 h -2.304 z m 6.696,-21.312 c 2.304,0 4.032,1.656 4.032,3.888 0,3.744 -4.968,10.944 -8.712,13.32 -0.216,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.144,-4.32 0.432,-7.056 1.08,-2.016 2.592,-3.024 4.608,-3.024 z m -23453.383,39.312 10.152,-7.488 c 4.464,-3.24 6.192,-6.912 6.336,-9.648 0,-4.032 -3.672,-7.056 -7.992,-7.056 -3.024,0 -5.256,1.152 -6.696,3.528 l 0.504,-22.68 h -2.304 z m 6.696,-21.312 c 2.304,0 4.032,1.656 4.032,3.888 0,3.744 -4.968,10.944 -8.712,13.32 -0.216,-1.224 -0.36,-3.6 -0.36,-7.128 0,-1.944 0.144,-4.32 0.432,-7.056 1.08,-2.016 2.592,-3.024 4.608,-3.024 z m 275158.746,35.136 v 72" />
+  </g>
