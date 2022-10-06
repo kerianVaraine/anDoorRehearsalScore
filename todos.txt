@@ -77,3 +77,19 @@ CODE:
     })();
 
     Reuse same kind of code to load in the score in parts, depending on which part is selected. Needs testing, but should work ok...
+
+
+
+// 6-OCTOBER-2022
+    optimized score up with ledger lines stroke-width fixed.
+    Need to make static site with performance notes typed up and link to live score, to be kept updated as needed.
+
+    Bass performer instructions gonna be the hardest...
+        scordiatura markings for D-A-D-A (check?)
+        feedback sections and fisting sections to be marked.
+        Pedals: compressor, delay, distortion, each set so that the sound continues as long as possible from a single pluck.
+
+
+    Strings are simple-ish: 
+        play with as little fluctuation as possible in bowing held notes.
+        If there are any fluctuations, great attempts should be made towards making them distinguishable from the attacks shown by noteheads.
