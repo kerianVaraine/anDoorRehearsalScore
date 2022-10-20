@@ -10,6 +10,7 @@ var webSocket = io();
 //
 // Score reference
 let score = document.getElementById("fullScore"); // also used in load performer part
+let partStave = document.getElementById("partStave"); // for loading of parts stave and clef
 let getScoreViewBox = function () {
     return score.attributes.viewBox.value.split(" ")
 };
@@ -237,6 +238,8 @@ Dynamics are entered following this convention:
 let bassPerformer = {
     start: "0 127.188 1000 550",
     end: "288000 127.188 1000 550",
+    clef: "./assets/Score/clefBass.svg",
+    // staveToFetch: "./assets/Score/BassStave.svg",
     scoreToFetch: "./assets/Score/BassPart.svg" 
 }
 
@@ -244,6 +247,8 @@ let bassPerformer = {
 let performer1 = {
     start: "0 654.813 1000 550",
     end: "288000 654.813 1000 550",
+    clef: "./assets/Score/clefTreble.svg",
+    // staveToFetch: "./assets/Score/Violin1Stave.svg",
     scoreToFetch: "./assets/Score/Violin1Part.svg", 
     partDynamics: [
         // [ xPosition at end of dynamic section, dynamic preset to call ], must include end of piece entry
@@ -281,6 +286,8 @@ let performer1 = {
 let performer2 = {
     start: "0 1182.438 1000 550",
     end: "288000 1182.438 1000 550",
+    clef: "./assets/Score/clefTreble.svg",
+    // staveToFetch: "./assets/Score/Violin2Stave.svg",
     scoreToFetch: "./assets/Score/Violin2Part.svg", 
     partDynamics: [
         [0, "mid attack, mid decay, F sustain"],
@@ -320,6 +327,8 @@ let performer2 = {
 let performer3 = {
     start: "0 1710.063 1000 550",
     end: "288000 1710.063 1000 550",
+    clef: "./assets/Score/clefAlto.svg",
+    // staveToFetch: "./assets/Score/ViolaStave.svg",
     scoreToFetch: "./assets/Score/ViolaPart.svg", 
     partDynamics: [
         [0, "mid attack, mid decay, F sustain"],
@@ -354,6 +363,8 @@ let performer3 = {
 let performer4 = {
     start: "0 2237.688 1000 550",
     end: "288000 2237.688 1000 550",
+    clef: "./assets/Score/clefBass.svg",
+    // staveToFetch: "./assets/Score/CelloStave.svg",
     scoreToFetch: "./assets/Score/CelloPart.svg", 
     partDynamics: [
         [0, "mid attack, mid decay, F sustain"],
@@ -389,6 +400,7 @@ let performer4 = {
 let allParts = {
     start: "0 140 5000 2635",
     end: "288000 140 5000 2635",
+    staveToFetch: "",
     scoreToFetch: "./assets/Score/FullScore.svg", 
     partDynamics: [performer1.partDynamics, performer2.partDynamics, performer3.partDynamics, performer4.partDynamics], // part dynamics collected in nested array for display
     dynamicDisplays: document.querySelector("#floatingTextDynamics").children, // HTML paragraph elements to display dynamics
@@ -413,8 +425,10 @@ let part = {
     set: function (performer) {
         // Loads and inserts the part.svg
         this.loadPart = (async () => {
-            const part = await (await fetch(performer.scoreToFetch)).text(); 
-            score.innerHTML = part;
+            const clef = await (await fetch(performer.clef)).text();
+            partStave.innerHTML = clef;
+            const part = await (await fetch(performer.scoreToFetch)).text(); //fetch part
+            score.innerHTML = part; //place part.svg into score div
         })();
         this.viewBox.start = performer.start;
         this.viewBox.end = performer.end;
