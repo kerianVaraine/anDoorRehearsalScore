@@ -1,2 +1,2 @@
 # anDoorRehearsalScore
-[Link To Score](andoorrehearsalscore.up.railway.app)
+[Link To Score](https://andoorrehearsalscore.up.railway.app/)
