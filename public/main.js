@@ -43,6 +43,15 @@ conductorSelect.onclick = function () {
 ///////////////////////
 let pieceDuration = (14 * 60) + 5; //14:30
 
+let timer = document.querySelector("#timer");
+let timerDuration = "14:04";
+timer.innerHTML = "00.0%"; //init default text
+let secondsToTime = function(seconds){
+    return new Date(seconds*1000).toISOString().substring(14,19);
+}
+
+
+
 let updateRate = 60; // rate to update viewbox X1 position in timeline.onUpdate function
 let updateTrack = 0; // modulo track time for timeline.onUpdate function
 // let debugTime = document.querySelector("#debugPlayValue");
@@ -51,14 +60,21 @@ gsap.ticker.fps(updateRate);
 let tl = gsap.timeline({
     paused: true, //start paused for loading and sync
     onUpdate: () => {
+
         updateTrack++;
         // rate of dynamics update
-        if (updateTrack % updateRate == 0) {
+        if (updateTrack % 60 == 0) {
             updateDynamics();
+        }
+        if (updateTrack % 60 && tl.isActive()) { //only check every second-ish and when timeline is active
+            // timer.innerHTML = secondsToTime(tl.time()) + " / " + timerDuration; //timer is not accurate and causes confusion
+            timer.innerHTML = ((Math.round((tl.totalProgress() * 100) * 10)/10).toFixed(1).toString() + "%").padStart(5, "00.0%"); //percentage of piece complete.
         }
         // debugTime.innerText = getViewBoxX1();
     }
 });
+
+
 
 ////////////////////
 // Dynamics stave //
@@ -495,8 +511,6 @@ let updateDynamics = function (x1) {
 //////////////////////////////////////
 
 const performerMenu = document.querySelector("#performerMenu");
-const performerLoad = document.querySelector("#performerLoad");
-
 
 let loadPerformer = function () {
     timeOnClick = tl.totalTime();
@@ -544,10 +558,6 @@ let loadPerformer = function () {
         tl.play()
     };
 };
-
-performerLoad.onclick = function () {
-    loadPerformer();
-}
 
 // init all parts
 loadPerformer()

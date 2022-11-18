@@ -16,6 +16,26 @@ html {
 #fullScore {
     position: relative;
 }
+#topbar {
+    margin-left: 8px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    line-height: 0px;
+    }
+    #topbar button, select{
+        padding:0 4px;
+        margin:0px 2px;
+    }
+
+#conductorSelect {
+    transform :scaleX(1.8), scaleY(1.1);
+    width: 40px;
+    height: 20px;
+    display: inline;
+}
 #performanceNotesDisplay {
     height:auto;
     width:100%;
@@ -31,6 +51,11 @@ html {
     top:40% ;
     left: 18.5%;
     opacity: 1;
+}
+
+#timer {
+    position:inline;
+    padding: 0 15px;
 }
 
 .hidden{
