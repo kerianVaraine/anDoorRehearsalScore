@@ -19,13 +19,14 @@
 </head>
 
 <body>
-    <div>
+    <div id="topbar">
         <button id="speedBackward" class="playback">&lt;&lt;</button>
         <button id="play" class="playback">&gt;</button>
         <button id="pause" class="playback">| |</button>
         <button id="speedForward" class="playback">&gt;&gt;</button>
+        <p id="timer">0:00 / 14:ish</p>
 
-        <select id="performerMenu" name="Performer" autocomplete="off">
+        <select id="performerMenu" name="Performer" autocomplete="off" onchange="loadPerformer()">
             <option value="allParts" selected>All Parts</option>
             <option value="bassPerformer">Bass</option>
             <option value="performer1">Violin 1</option>
@@ -34,7 +35,7 @@
             <option value="performer4">Cello</option>
         </select>
 
-        <button id="performerLoad">Load Part</button>
+        <!-- <button id="performerLoad">Load Part</button> -->
 
         <select id="rehearsalMarkMenu" name="Rehearsal Marks">
             <option value="0" selected>Rehearsal Marks</option>
@@ -50,7 +51,6 @@
         <input type="checkbox" name="conductor?" id="conductorSelect" autocomplete="off">conductor?</select>
         <button id="performanceNotesButton">performance notes</button>
         <!-- <button id="debugPlayValue"></button> -->
-
         <p id="conductorText"></p>
         
     </div>
