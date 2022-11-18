@@ -63,7 +63,7 @@ let tl = gsap.timeline({
 
         updateTrack++;
         // rate of dynamics update
-        if (updateTrack % 60 == 0) {
+        if (updateTrack % 30 == 0) {
             updateDynamics();
         }
         if (updateTrack % 60 && tl.isActive()) { //only check every second-ish and when timeline is active
