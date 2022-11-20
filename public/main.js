@@ -54,8 +54,9 @@ let secondsToTime = function(seconds){
 
 let updateRate = 60; // rate to update viewbox X1 position in timeline.onUpdate function
 let updateTrack = 0; // modulo track time for timeline.onUpdate function
-// let debugTime = document.querySelector("#debugPlayValue");
 gsap.ticker.fps(updateRate);
+
+// let debugTime = document.querySelector("#debugPlayValue");
 
 let tl = gsap.timeline({
     paused: true, //start paused for loading and sync
@@ -69,187 +70,15 @@ let tl = gsap.timeline({
         if (updateTrack % 60 && tl.isActive()) { //only check every second-ish and when timeline is active
             // timer.innerHTML = secondsToTime(tl.time()) + " / " + timerDuration; //timer is not accurate and causes confusion
             timer.innerHTML = ((Math.round((tl.totalProgress() * 100) * 10)/10).toFixed(1).toString() + "%").padStart(5, "00.0%"); //percentage of piece complete.
+
         }
         // debugTime.innerText = getViewBoxX1();
     }
 });
 
-
-
-////////////////////
-// Dynamics stave //
-////////////////////
-/* svg path id = #ads
- default set at: d="M 0.2,10 7.0,0.2 12.0,4.15 H 30"
- params as : d = "M ax,ay attackRate,attackAmp decayRate,decayAmp H 30"
-*/
-let dynamics = {
-    dynamicsStave: document.querySelector("#ads"),
-    ax: 0.2,
-    ay: 10.0,
-    attackRate: 7.0,
-    attackAmp: 0.2,
-    decayRate: 12.0,
-    decayAmp: 4.15,
-    dString: function () {
-        return "M " + this.ax + "," + this.ay + " " + this.attackRate + "," + this.attackAmp + " " + this.decayRate + "," + this.decayAmp + " H 30";
-    },
-
-    updateADSGraph: function () {
-        this.dynamicsStave.setAttribute("d", this.dString());
-    },
-
-    resetDefault: function () {
-        this.ax = 0.2,
-            this.ay = 10.0,
-            this.attackRate = 7.0,
-            this.attackAmp = 0.2,
-            this.decayRate = 12.0,
-            this.decayAmp = 4.15,
-            this.updateADSGraph();
-    },
-
-    //helper to have numbers for from 0-10 (soft/slow to loud/fast), but 0==0.3 and 10==9.6 for svg overlap
-    flipScale: function (n) {
-        m = (n * -1 + 10);
-        switch (m) {
-            case 0:
-                return 0.3;
-                break;
-            case 10:
-                return 9.6;
-                break;
-            default:
-                return m;
-                break;
-        }
-    },
-
-    setAttackRate: function (rate) {
-        if (rate < this.getDecayRate()) {
-            this.attackRate = rate;
-        } else {
-            this.attackRate = this.getDecayRate();
-        }
-        this.updateADSGraph();
-    },
-    getAttackRate: function () {
-        return this.attackRate
-    },
-
-    setAttackAmp: function (amp) {
-        this.attackAmp = this.flipScale(amp);
-        this.updateADSGraph();
-    },
-    getAttackAmp: function () {
-        return this.attackAmp
-    },
-
-    setDecayRate: function (rate) {
-        if (rate > 0) {
-            this.decayRate = rate + this.getAttackRate();
-        } else {
-            this.decayRate = this.getAttackRate();
-        }
-        this.updateADSGraph();
-    },
-    getDecayRate: function () {
-        return this.decayRate
-    },
-
-    setDecayAmp: function (amp) {
-        this.decayAmp = this.flipScale(amp);
-        this.updateADSGraph();
-    },
-    getDecayAmp: function () {
-        return this.decayAmp
-    },
-
-    generateADS: function (attR, attA, decR, decA) {
-        this.setAttackRate(attR);
-        this.setAttackAmp(attA);
-        this.setDecayRate(decR);
-        this.setDecayAmp(decA)
-    },
-
-}
-
-// Dynamics fluid animation
-// TODO: clean this copyPasta up, and integrate with dynamics object
-let animateSetADS = function (attR, attA, decR, decA, duration) {
-    //Logic needed again for making parameter input sane...
-    if (attR < dynamics.getDecayRate()) {
-        attR = attR;
-    } else {
-        attR = dynamics.getDecayRate();
-    };
-
-    attA = dynamics.flipScale(attA);
-
-    if (decR > 0) {
-        decR = decR + dynamics.getAttackRate();
-    } else {
-        decR = dynamics.getAttackRate();
-    }
-
-    decA = dynamics.flipScale(decA);
-
-    gsap.to(dynamics, {
-        attackRate: attR,
-        attackAmp: attA,
-        decayRate: decR,
-        decayAmp: decA,
-        duration: duration,
-        onUpdate: function () {
-            dynamics.updateADSGraph()
-        }
-    });
-}
-
-// Predefined dynamic staves for parts.
-let dynamicPreset = {
-    currentDynamic: "", // check to avoid dynamic display update 
-    partDynamicsArrayPosition: 0, // for individual part dynamic display logic
-
-    "short attack, short decay, F sustain": () => animateSetADS(1, 10, 1, 8, 1),
-    "short attack, short decay, M sustain": () => animateSetADS(1, 10, 1, 5, 1),
-    "short attack, short decay, M sustain, long change": () => animateSetADS(1, 10, 1, 5, 10),
-    "short attack, short decay, P sustain": () => animateSetADS(1, 10, 1, 3, 1),
-    "short attack, short decay, P sustain, long change": animateSetADS(1, 10, 1, 3, 10),
-
-    "short attack, long decay, F sustain": () => animateSetADS(1, 10, 3, 8, 1),
-    "short attack, long decay, F sustain, long change": () => animateSetADS(1, 10, 3, 8, 10),
-    "short attack, long decay, M sustain, long change": () => animateSetADS(1,10,3,5,10),
-    "short attack, long decay, P sustain": () => animateSetADS(1, 10, 3, 3, 1),
-
-    "short attack, mid decay, M sustain": () => animateSetADS(1, 10, 3, 8, 1),
-
-    "mid attack, mid decay, F sustain": () => animateSetADS(3, 10, 3, 8, 1),
-    "mid attack, mid decay, M sustain": () => animateSetADS(3, 10, 3, 5, 1),
-    "mid attack, mid decay, P sustain": () => animateSetADS(3, 10, 3, 3, 1),
-
-    "long attack, mid decay, F sustain": () => animateSetADS(8, 10, 3, 8, 1),
-    "long attack, mid decay, M sustain": () => animateSetADS(8, 10, 3, 5, 1),
-    "long attack, short decay, F sustain": () => animateSetADS(8,10,1,8,1),
-
-    "final dim": () => animateSetADS(3,4,3,1,22),
-
-    "end of piece": () => animateSetADS(0,0,0,0,1)
-}
-
-////////////////////////////////
-// Part Specific information  //
-////////////////////////////////
-/* 
-ViewBox magic numbers were found using inkscape.
-    Create a rectangle the width and height you want to display (2nd pair of coords in viewBox)
-    Align rectangle with stave in inkscape and use the numbers in the top coordinate bar while in the move tool.
-
-Dynamics are entered following this convention:
-    [ xPosition at end of dynamic section, dynamic preset to call ]
-    must include an end of array dummy call to avoid out of bounds error
-*/
-
+/////////////////////
+// PERFORMER PARTS //
+/////////////////////
 // Bass Part
 let bassPerformer = {
     start: "0 127.188 1000 550",
@@ -268,31 +97,47 @@ let performer1 = {
     scoreToFetch: "./assets/Score/Violin1Part.svg", 
     partDynamics: [
         // [ xPosition at end of dynamic section, dynamic preset to call ], must include end of piece entry
-        [0, "mid attack, mid decay, F sustain"],
-        [13800, "short attack, short decay, F sustain"],
-        [20800, "mid attack, mid decay, F sustain"],
+        [0, "short attack MF, short decay MF"],
+        [13800, "short attack MP, short decay F"],
+        [20800, "mid attack MF, long decay F"],
+        [22350, "mid attack MP, short decay MP, long change"],
         //R1
-        [34700, "short attack, short decay, F sustain"],
-        [35914, "short attack, long decay, M sustain, long change"],
-        [46587, "short attack, short decay, M sustain"],
-        [53021, "short attack, short decay, P sustain"],
+        [31220, "long attack F, long decay MF, long change"],
+        [34700, "short attack F, short decay MF"],
+        [35914, "short attack MF, long decay MF, long change"],
+        [46587, "short attack MF, short decay MP"],
+        [53021, "short attack MF, short decay P"],
         //R2
-        [73330, "mid attack, mid decay, F sustain"],
-        [79150, "short attack, short decay, F sustain"],
-        [86600, "long attack, mid decay, F sustain"],
-        [94250, "short attack, short decay, M sustain"],
-        [98630, "short attack, short decay, P sustain, long change"],
-        [102165, "long attack, mid decay, M sustain"],
-        [121290, "short attack, short decay, M sustain"],
+        [73330, "mid attack F, mid decay F"],
+        [79150, "short attack F, short decay F"],
+        [86600, "long attack F, mid decay F"],
+        [94250, "short attack F, short decay M"],
+        [98630, "short attack F, short decay P, long change"],
+        [102165, "long attack F, mid decay M"],
+        [121290, "short attack F, short decay M"],
         //R3
-        [141777, "mid attack, mid decay, F sustain"],
-        [147400, "mid attack, mid decay, M sustain"],
-        [153500, "short attack, mid decay, M sustain"],
-        [179000, "short attack, short decay, M sustain"],
+        [137997, "long attack MP, mid decay P, 10 change"], // bass melody
+        [147400, "long attack PP, mid decay MP"],
+        [153400, "short attack P, mid decay PP"],
+        [171700, "short attack P, long decay PP"],
+        [179488, "short attack MP, long decay F, 20 change"],
         //R4
-        [217000, "long attack, mid decay, M sustain"],
+        [185100, "short attack MP, mid decay P"],
+        [217000, "long attack P, mid decay PP"],
+        [226154, "long attack MF, long decay MF, 12 change"],
         //R5
-        [249000, "short attack, short decay, M sustain"],
+        [235500, "short attack MF, long decay MP"],
+        [238262, "short attack MF, long decay MF, 5 change"],
+        [240279, "short attack MF, long decay MP, 5 change"],        
+        [242726, "short attack MF, long decay MF, 5 change"],
+        [245496, "short attack MF, long decay MP, 5 change"],
+        [249472, "short attack MF, long decay MF, 5 change"],
+        [252164, "short attack MF, long decay MP, 5 change"],
+        [254707, "short attack MF, long decay MF, 5 change"],
+        [257621, "short attack MF, long decay MF, 4 change"],
+        [267344, "long attack MF, mid decay MP, 4 change"],
+        [274550, "long attack MF, mid decay F, 9 change"],
+
         [279000, "final dim"],
         [287600, "end of piece"],
         [288000, "end of array"]
@@ -306,34 +151,55 @@ let performer2 = {
     // staveToFetch: "./assets/Score/Violin2Stave.svg",
     scoreToFetch: "./assets/Score/Violin2Part.svg", 
     partDynamics: [
-        [0, "mid attack, mid decay, F sustain"],
-        [13600, "short attack, short decay, F sustain"],
-        [16960, "short attack, long decay, F sustain"],
-        [27800, "short attack, short decay, F sustain"],
+        [0, "long attack MF, long decay MP"],
+        [13600, "short attack MP, short decay MP"],
+        [16960, "short attack MP, long decay F"],
+        [23350, "long attack F, long decay MF, long change"],
+        [27800, "short attack MP, short decay MP"],
         //R1
-        [31503, "short attack, long decay, M sustain, long change"],
-        [40380, "short attack, short decay, M sustain"],
-        [40500, "short attack, short decay, P sustain, long change"],
-        [44650, "short attack, long decay, F sustain, long change"],
-        [53021, "short attack, short decay, P sustain"],
-        [56190, "mid attack, short decay, P sustain"],
-        [59937, "short attack, long decay, F sustain, long change"],
+        [30570, "short attack F, long decay MP, long change"],
+        [35910, "short attack MF, long decay MF, 12 change"],
+        [40500, "short attack MP, short decay P, long change"],
+        [44650, "short attack F, long decay MF, long change"],
+        [53021, "short attack F, short decay P"],
+        [56190, "mid attack F, short decay P"],
+        [59937, "short attack F, long decay MP, long change"],
         //R2
-        [73330, "mid attack, mid decay, F sustain"],
-        [78500, "short attack, short decay, M sustain"],
-        [98630, "short attack, short decay, F sustain"],
-        [117670, "short attack, short decay, M sustain, long change"],
+        [73330, "mid attack MP, mid decay MF"],
+        [78500, "short attack MF, short decay MP"],
+        [98630, "short attack MP, short decay MF"],
+        [117670, "short attack MF, short decay MP, long change"],
         //R3
-        [134850, "short attack, short decay, F sustain"],
-        [141777, "mid attack, mid decay, F sustain"],
-        [147400, "short attack, short decay, M sustain"],
-        [149000, "long attack, mid decay, F sustain"],
-        [162530, "short attack, short decay, M sustain, long change"],
+        [134850, "short attack F, short decay F"],
+        [138570, "long attack MP, long decay P"], // bass melody
+        [141777, "mid attack MP, mid decay PP"],
+        [147400, "short attack MP, mid decay MP"],
+        [150400, "long attack MF, mid decay P"],
+        [155340, "long attack P, long decay PP, 12 change"],
+        [160880, "long attack MF, long decay P, 15 change"],
+        [165800, "short attack MP, short decay PP"],
+        [171700, "short attack P, long decay PP, 10 change"],
+        [181400, "short attack MF, long decay F, 20 change"],
         //R4
-        [211600, "short attack, long decay, F sustain, long change"],
-        [215600, "short attack, short decay, F sustain"],
+        [182795, "short attack MP, mid decay P, 21 change"],
+        [210830, "short attack PP, long decay MP"],
+        [232299, "short attack MP, long decay F, 7 change"],
         //R5
-        [235500, "short attack, short decay, M sustain"],
+        [235500, "short attack F, long decay MF"],
+        [238262, "short attack F, long decay FF, 5 change"],
+        [240279, "short attack F, long decay MF, 5 change"],
+        [242726, "short attack F, long decay FF, 5 change"],
+        [245496, "short attack F, long decay MF, 5 change"],
+        [249472, "short attack F, long decay FF, 5 change"],
+        [252164, "short attack F, long decay MF, 5 change"],
+        [254707, "short attack F, long decay FF, 5 change"],
+        [257621, "short attack F, mid decay MF, 4 change"],
+        [263319, "short attack F, mid decay FF, 4 change"],
+        [265384, "long attack MF, mid decay MP"],
+
+        [277523, "long attack MF, short decay F, 5 change"],
+
+
         [279000, "final dim"],
         [287600, "end of piece"],
         [288000, "end of array"]
@@ -347,29 +213,52 @@ let performer3 = {
     // staveToFetch: "./assets/Score/ViolaStave.svg",
     scoreToFetch: "./assets/Score/ViolaPart.svg", 
     partDynamics: [
-        [0, "mid attack, mid decay, F sustain"],
-        [8700, "short attack, short decay, F sustain"],
-        [23200, "short attack, long decay, F sustain"],
+        [0, "long attack F, mid decay MF"],
+        [8700, "short attack MP, long decay MP"],
+        [17300, "short attack MF, long decay MP"],
+        [23200, "short attack F, long decay F"],
         //R1
-        [36300, "short attack, short decay, M sustain"],
-        [44600, "short attack, long decay, F sustain"],
-        [47335, "short attack, short decay, F sustain"],
-        [53021, "short attack, short decay, P sustain"],
-        [56190, "mid attack, mid decay, F sustain"],
-        [60000, "short attack, short decay, M sustain, long change"],
+        [31220, "long attack FF, long decay MF"],
+        [44600, "short attack F, long decay F"],
+        [47335, "short attack F, short decay F"],
+        [53021, "short attack F, short decay P"],
+        [56190, "mid attack F, mid decay F"],
+        [60000, "short attack F, short decay M, long change"],
         //R2
-        [73330, "mid attack, mid decay, F sustain"],
-        [82225, "short attack, short decay, F sustain"],
-        [86570, "short attack, short decay, M sustain"],
-        [91591, "mid attack, mid decay, F sustain"],
-        [94905, "short attack, short decay, P sustain"],
-        [98630, "long attack, mid decay, F sustain"],
-        [121290, "short attack, short decay, M sustain"],
+        [73330, "mid attack F, mid decay F"],
+        [82225, "short attack F, short decay F"],
+        [86570, "short attack F, short decay M"],
+        [91591, "mid attack F, mid decay F"],
+        [94905, "short attack F, mid decay P"],
+        [98630, "long attack MP, long decay P, 9 change"],
+        [121290, "short attack F, short decay M"],
         //R3
-        [134364, "long attack, mid decay, F sustain"],
+        [134364, "long attack F, long decay F"],
+        [138555, "long attack P, long decay MP"], //bass melody
+        [142000, "long attack P, long decay PP, 15 change"],
+        [149750, "long attack P, long decay MP, 12 change"],
+        [155340, "long attack P, long decay PP, 12 change"],
+        [160880, "long attack MF, long decay P, 15 change"],
+        [170800, "long attack MF, long decay MP, 15 change"],
+        [179488, "short attack MF, long decay F, 20 change"],
         //R4
-        [215600, "long attack, short decay, F sustain"],
+        [182795, "short attack MP, mid decay P, 21 change"],
+        [213600, "short attack PP, long decay MP"],
+        [226154, "long attack MF, long decay MF, 12 change"],
+        [232299, "short attack MP, long decay F, 7 change"],
         //R5
+        [238262, "short attack F, long decay FF, 5 change"],
+        [240279, "short attack F, long decay MF, 5 change"],
+        [242726, "short attack F, long decay FF, 5 change"],
+        [245496, "short attack F, long decay MF, 5 change"],
+        [249472, "short attack F, long decay FF, 5 change"],
+        [252164, "short attack F, long decay MF"],
+        [254707, "short attack F, long decay FF, 5 change"],
+        [257621, "short attack F, mid decay MF, 4 change"],
+        [266690, "long attack MF, mid decay MP, 2 change"],
+        [276813, "long attack MF, mid decay F, 6 change"],
+
+
         [279000, "final dim"],
         [287600, "end of piece"],
         [288000, "end of array"]
@@ -383,29 +272,55 @@ let performer4 = {
     // staveToFetch: "./assets/Score/CelloStave.svg",
     scoreToFetch: "./assets/Score/CelloPart.svg", 
     partDynamics: [
-        [0, "mid attack, mid decay, F sustain"],
+        [0, "long attack F, mid decay MF"],
+        [14400, "mid attack MP, long decay MF"],
+        [21356, "mid attack MP, long decay F, long change"],
+        [23530, "mid attack MP, long decay MP, long change"],
         //R1
-        [32000, "short attack, short decay, M sustain"],
-        [37000, "mid attack, mid decay, M sustain"],
-        [41500, "short attack, long decay, M sustain, long change"],
-        [53021, "short attack, short decay, P sustain"],
-        [56190, "short attack, short decay, M sustain, long change"],
+        [32000, "short attack F, long decay F, 10 change"],
+        [35530, "short attack F, long decay P, long change"],
+        [37000, "mid attack MP, long decay MF"],
+        [41100, "short attack MF, long decay MF"],
+        [45330, "long attack F, long decay FF"],
+        [49427, "long attack F, long decay MP, 10 change"],
+        [53021, "short attack F, short decay P, 10 change"],
+        [56190, "short attack F, short decay MF, 10 change"],
+        [59989, "mid attack MP, short decay P, 17 change"],
+
         //R2
-        [73330, "mid attack, mid decay, F sustain"],
-        [79150, "short attack, short decay, F sustain"],
-        [84563, "long attack, mid decay, F sustain"],
-        [98630, "short attack, short decay, F sustain"],
-        [117670, "short attack, short decay, M sustain, long change"],
+        [73330, "mid attack MP, mid decay MF, long change"],
+        [79480, "short attack MF, short decay F, 10 change"],
+        [84563, "long attack MF, mid decay F, 12 change"],
+        [98630, "short attack MP, short decay MP"],
+        [117670, "short attack MF, short decay P, 10 change"],
         //R3
-        [134850, "long attack, mid decay, F sustain"],
-        [138730, "short attack, short decay, F sustain"],
-        [163280, "long attack, mid decay, F sustain"],
-        [170250, "short attack, short decay, F sustain"],
+        [134850, "long attack F, mid decay F"],
+        [138565, "short attack MP, mid decay P"], // bass melody
+        [142000, "long attack MP, long decay PP, 12 change"],
+        [151775, "long attack P, long decay MP, 12 change"],
+        [163280, "long attack MP, long decay PP"],
+        [163280, "long attack MP, long decay MF, 10 change"],
+        [170250, "short attack MF, short decay MP"],
+        [181900, "short attack MF, long decay F"],
         //R4
-        [220600, "long attack, mid decay, F sustain"],
+        [182795, "short attack MP, mid decay P, 21 change"],
+        [220300, "long attack MF, long decay P"],
+        [226154, "long attack MF, long decay MF, 12 change"],
+        [232299, "short attack MP, long decay F, 7 change"],
         //R5
-        [241000, "short attack, mid decay, M sustain"],
-        [258900, "short attack, short decay, F sustain"],
+        [238262, "short attack F, long decay FF, 5 change"],
+        [240279, "short attack F, long decay MF, 5 change"],
+        [242726, "short attack F, long decay FF, 5 change"],
+        [245496, "short attack F, long decay MF, 5 change"],
+        [249472, "short attack F, long decay FF, 5 change"],
+        [252164, "short attack F, long decay MF, 5 change"],
+        [254707, "short attack F, long decay FF, 5 change"],
+        [257621, "short attack F, mid decay MF, 4 change"],
+        [263319, "short attack F, mid decay FF, 4 change"],
+        [265384, "long attack MF, mid decay MP"],
+
+        [274550, "long attack MF, short decay F, 9 change"],
+
         [279000, "final dim"],
         [287600, "end of piece"],
         [288000, "end of array"]
@@ -486,7 +401,8 @@ let updateDynamics = function (x1) {
 
                     // avoid calling dynamic display change unless new dynamic is called
                     if (dynamicPreset.currentDynamic != partChosen.partDynamics[i][1]) {
-                        dynamicPreset[partChosen.partDynamics[i][1]]();
+                        // dynamicPreset[partChosen.partDynamics[i][1]](); //orig
+                        parseStringEnvelope(partChosen.partDynamics[i][1]);
                         dynamicPreset.currentDynamic = partChosen.partDynamics[i][1];
                     }
                 }
